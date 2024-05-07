@@ -29,7 +29,7 @@
             right: calc(100vw/2.3);
             top: -220px;
             background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(56,56,56,1) 100%);
-            animation: .5s line1 linear;
+            animation: 1s line1 ease-out;
         }
         @keyframes line1 {
             from{
@@ -46,7 +46,7 @@
             right: 17vw;
             top: -220px;
             background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(56,56,56,1) 100%);
-            animation: .5s line2 linear;
+            animation: 1s line2 ease-out;
         }
         @keyframes line2 {
             from{
@@ -63,7 +63,7 @@
             right: 8vw;
             top: -130px;
             background: linear-gradient(270deg, rgba(255,255,255,0) 0%, rgba(56,56,56,1) 100%);
-            animation: .5s line3 linear;
+            animation: 1s line3 ease-out;
         }
         @keyframes line3 {
             from{
@@ -80,7 +80,7 @@
             right: 50vw;
             top: 450px;
             background: linear-gradient(270deg, rgba(255,255,255,0) 0%, rgba(56,56,56,1) 100%);
-            animation: .5s line4 linear;
+            animation: 1s line4 ease-out;
         }
         @keyframes line4 {
             from{
@@ -97,7 +97,7 @@
             right: 350px;
             bottom: -13vw;
             background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(56,56,56,1) 100%);
-            animation: .5s line5 linear;
+            animation: 1s line5 ease-out;
         }
         @keyframes line5 {
             from{
@@ -113,7 +113,7 @@
             background-color: $black;
             bottom: -12vw;
             right: 3vw;
-            animation: .5s line6 linear;
+            animation: 1s line6 ease-out;
         }
         @keyframes line6 {
             from{
