@@ -43,7 +43,7 @@
             width: 5px;
             height: 170px;
             content: '';
-            right: 300px;
+            right: 17vw;
             top: -220px;
             background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(56,56,56,1) 100%);
             animation: .5s line2 linear;
@@ -60,7 +60,7 @@
             width: 220px;
             height: 5px;
             content: '';
-            right: 150px;
+            right: 8vw;
             top: -130px;
             background: linear-gradient(270deg, rgba(255,255,255,0) 0%, rgba(56,56,56,1) 100%);
             animation: .5s line3 linear;
@@ -70,14 +70,14 @@
                 right: -220px;
             }
             to{
-                right: 150px;
+                right: 8vw;
             }
         }
         #line4{
             width: 220px;
             height: 5px;
             content: '';
-            right: 1000px;
+            right: 50vw;
             top: 450px;
             background: linear-gradient(270deg, rgba(255,255,255,0) 0%, rgba(56,56,56,1) 100%);
             animation: .5s line4 linear;
@@ -87,7 +87,7 @@
                 right: -220px;
             }
             to{
-                right: 1000px;
+                right: 50vw;
             }
         }
         #line5{
@@ -95,7 +95,7 @@
             height: 170px;
             content: '';
             right: 350px;
-            bottom: -315px;
+            bottom: -13vw;
             background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(56,56,56,1) 100%);
             animation: .5s line5 linear;
         }
@@ -104,15 +104,15 @@
                 bottom: 630px;
             }
             to{
-                bottom: -315px;
+                bottom: -13vw;
             }
         }
         #line6{
             width: 5px;
             height: 100px;
             background-color: $black;
-            bottom: -250px;
-            right: 50px;
+            bottom: -12vw;
+            right: 3vw;
             animation: .5s line6 linear;
         }
         @keyframes line6 {
