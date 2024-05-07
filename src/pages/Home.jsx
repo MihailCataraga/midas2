@@ -25,6 +25,7 @@ useEffect(() => {
         })
         .then(res => res.json())
         .then(data => {
+            console.log(data.loc)
             // Redirectăm utilizatorul pe baza răspunsului primit de la serverul backend
             if(data.loc === 'MD' || data.loc === 'RO') {
                 window.location.href = 'https://midas2.vercel.app/ro';
