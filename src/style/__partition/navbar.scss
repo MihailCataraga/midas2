@@ -1,0 +1,99 @@
+.navbar{
+    width: 100px;
+    height: calc(100% - 40px);
+    background-color: $black;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    -webkit-box-shadow: 5px 0px 10px 5px rgba(107, 107, 107, 0.75);
+    -moz-box-shadow: 5px 0px 10px 5px rgba(107, 107, 107, 0.75);
+    box-shadow: 5px 0px 10px 5px rgba(107, 107, 107, 0.75);
+    z-index: 999;
+    .icon{
+        font-size: 44px;
+        display: flex;
+        color: $white;
+    }
+    .iconActive{
+        color: $gold;
+    }
+    .icon:hover{
+        color: $gold;
+        transition: .5s;
+    }
+    .menu{
+        position: absolute;
+        left: 100px;
+        top: 0;
+        padding: 25px;
+        background-color: $black;
+        width: 100px;
+        -webkit-box-shadow: 10px 10px 5px 10px rgba(107, 107, 107, 0.75);
+        -moz-box-shadow: 10px 10px 5px 10px rgba(107, 107, 107, 0.75);
+        box-shadow: 10px 10px 10px 0px rgba(107, 107, 107, 0.75);
+        -webkit-border-top-right-radius: 25px;
+        -webkit-border-bottom-right-radius: 25px;
+        -moz-border-radius-topright: 25px;
+        -moz-border-radius-bottomright: 25px;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+        animation: menuOpen .5s linear;
+        z-index: 998;
+        nav{
+            display: flex;
+            flex-direction: column;
+            a{
+                text-decoration: none;
+                font-size: 20px;
+                margin: 5px 0;
+                color: $white;
+            }
+            a:hover{
+                color: $gold;
+                transition: .5s;
+            }
+            .active{
+                color: $gold;
+            }
+        }
+    }
+    @keyframes menuOpen {
+        from{
+            top: -200px;
+        }
+        to{
+            top: 0px;
+        }
+    }
+    @keyframes menuClose {
+        from{
+            top: 0px;
+        }
+        to{
+            top: -200px;
+        }
+    }
+    .social {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .icon{
+            font-size: 28px;
+            margin: 10px 0;
+        }
+        .line{
+            width: 2px;
+            background-color: $white;
+            height: 150px;
+            content: '';
+            margin: 10px 0;
+        }
+    }
+    .iconMail{
+        font-size: 28px;
+        color: $white;
+    }
+}
