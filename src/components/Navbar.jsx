@@ -44,8 +44,9 @@ export default function Navbar() {
     // Pulse onClick
     const pulse = (param) => {
         const elem = document.getElementById(param)
-        elem.style.color = '#a18900'
-        setTimeout(() => {
+        elem.style.color = '#fff4b4'
+        
+        const timeout = setTimeout(() => {
             elem.style.color = '#ffd700'
             elem.addEventListener('mouseenter', function() {
                 this.style.color = '#ffd700'; // Schimbă culoarea la hover
@@ -53,7 +54,10 @@ export default function Navbar() {
             elem.addEventListener('mouseleave', function() {
                 this.style.color = '#f7f7f7'; // Restabilește culoarea la ieșirea mouse-ului
             });
-        }, 500)
+        }, 300)
+        elem.addEventListener('mouseleave', () => {
+            clearTimeout(timeout)
+        })
     }
 
     useEffect(() => {
