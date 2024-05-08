@@ -71,7 +71,7 @@ export default function Home() {
                 <section className='sec-1'>
                     <SecNavbar page='Home' />
                     <h1>Midas Group</h1>
-                    <h2>Transformăm visele în web site-uri funcționale</h2>
+                    <h2>We turn dreams into functional websites</h2>
                     <div className='line' id='line1'></div>
                     <div className='line' id='line2'></div>
                     <div className='line' id='line3'></div>
@@ -96,7 +96,10 @@ export default function Home() {
                                     <p>info@midasgroup.works</p>
                                 </div>
                             </div>
-                            <p><FaRegCheckCircle className='icon' />I accept the <Link to='/'>privacy policy</Link></p>
+                            <div className='check'>
+                                <FaRegCheckCircle className='icon' />
+                                <p>I accept the <Link to='/'>privacy policy.</Link></p>
+                            </div>
                             <button>SEND</button>
                         </form>
                     </div>

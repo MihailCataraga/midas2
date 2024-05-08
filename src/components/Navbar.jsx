@@ -13,17 +13,26 @@ export default function Navbar() {
 
     // Menu ref
     const menuRef = useRef(null)
+    const langRef = useRef(null)
 
     // Close menu when you Click outside it
     const handleClickOutside = (event) => {
         if (menuRef.current && !menuRef.current.contains(event.target)) {
             closeMenu()
         }
+        // Close lang when you Click outside it
+        if (langRef.current && !langRef.current.contains(event.target)) {
+            closeLang()
+        }
     };
 
     // Close menu when you scroll
     const scrollCloseMenu = () => {
         closeMenu()
+    }
+    // Close lang when you scroll
+    const scrollCloseLang = () => {
+        closeLang()
     }
 
     const closeMenu = () => {
@@ -63,15 +72,17 @@ export default function Navbar() {
     useEffect(() => {
         document.addEventListener('mousedown', handleClickOutside);
         document.addEventListener('scroll', scrollCloseMenu);
+        document.addEventListener('scroll', scrollCloseLang);
         return () => {
             document.removeEventListener('mousedown', handleClickOutside);
             document.removeEventListener('scroll', scrollCloseMenu);
+            document.removeEventListener('scroll', scrollCloseLang);
         }
     })
     return (
         <div className='navbar'>
-            {menu ? <IoClose className='icon iconActive' onClick={closeMenu} />
-                : <IoMenu className='icon' onClick={() => setMenu(true)} />
+            {menu ? <IoClose className='icon iconActive' id='close' onClick={() => {setTimeout(() => {setMenu(false)}, 300), closeMenu(), pulse('close')}} />
+                : <IoMenu className='icon' id='open' onClick={() => {setTimeout(() => {setMenu(true)}, 300), pulse('open')}} />
             }
             {menu && <div className='menu' id='menu' ref={menuRef}>
                 <nav>
@@ -83,7 +94,7 @@ export default function Navbar() {
             </div>
             }
             <div className='social'>
-                <FaInstagram className='icon' id='instagram' onClick={() => pulse('instagram')} />
+                <FaInstagram className='icon' />
                 <FaFacebookF className='icon' />
                 <FaLinkedinIn className='icon' />
                 <FaXTwitter className='icon' />
@@ -91,11 +102,11 @@ export default function Navbar() {
                 <FaWhatsapp className='icon' />
                 <IoIosMail className='icon' />
             </div>
-            <MdLanguage className={lang ? 'iconLang activeLang': 'iconLang'} onClick={lang ? closeLang : () => setLang(true)} />
-            {lang && <div className='langBox' id='lang'>
-                <Link to={'/'} onClick={() => {document.cookie = "language=en"}}>En</Link>
-                <Link to={'/ro'} onClick={() => {document.cookie = "language=ro"}}>Ro</Link>
-                <Link to={'/ru'} onClick={() => {document.cookie = "language=ru"}}>Ru</Link>
+            <MdLanguage className={lang ? 'iconLang activeLang': 'iconLang'} id='langIcon' onClick={lang ? () => {closeLang(), pulse('langIcon')} : () => {setLang(true), pulse('langIcon')}} />
+            {lang && <div className='langBox' id='lang' ref={langRef}>
+                <Link to={'/'} onClick={() => {document.cookie = "language=en"}}>EN</Link>
+                <Link to={'/ro'} onClick={() => {document.cookie = "language=ro"}}>RO</Link>
+                <Link to={'/ru'} onClick={() => {document.cookie = "language=ru"}}>RU</Link>
             </div>
             }
         </div>

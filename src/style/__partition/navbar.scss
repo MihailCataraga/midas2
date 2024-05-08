@@ -17,6 +17,7 @@
         font-size: 44px;
         display: flex;
         color: $white;
+        transition: .5s;
     }
 
     .iconActive {
@@ -101,13 +102,6 @@
         .icon:hover{
             color: $gold;
         }
-        #instagram {
-            font-size: 28px;
-            margin: 10px 0;
-        }
-        #instagram:hover {
-            color: $gold;
-        }
 
         .line {
             width: 2px;
@@ -121,6 +115,7 @@
     .iconLang {
         font-size: 28px;
         color: $white;
+        transition: .5s;
     }
     .iconLang:hover {
         color: $gold;
@@ -149,6 +144,7 @@
             color: $white;
             font-size: 20px;
             margin: 0 10px;
+            transition: .5s;
         }
 
         a:hover {
@@ -172,6 +168,4 @@
             }
         }
     }
-
-
 }
