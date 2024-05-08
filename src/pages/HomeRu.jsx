@@ -9,7 +9,19 @@ export default function HomeRu() {
     const [ip, setIp] = useState('');
     
     useEffect(() => {
-        if (!ip) {
+        const cookies = document.cookie;
+
+        // Parsare cookie-uri și obține valoarea pentru "username"
+        const languageCookie = cookies.split(';').find(cookie => cookie.trim().startsWith('language='));
+        const language = languageCookie ? languageCookie.split('=')[1] : null;
+
+        if (language == 'ro') {
+            window.location.href = '/ro'
+        }
+        if (language == 'en') {
+            window.location.href = '/'
+        }
+        if (language === null) {
             fetch('https://ipinfo.io/json')
                 .then(response => response.json())
                 .then(data => {
@@ -26,20 +38,17 @@ export default function HomeRu() {
                     })
                         .then(res => res.json())
                         .then(data => {
-                            console.log(data.loc)
-                            console.log(typeof (window.location.href))
-                            console.log(window.location.href === 'https://midas2.vercel.app/ro')
                             // Redirectăm utilizatorul pe baza răspunsului primit de la serverul backend
                             if (data.loc === 'MD' || data.loc === 'RO') {
-                                if (window.location.href === 'https://midas2.vercel.app/ro') {
+                                if (window.location.href === '/ro') {
                                     return;
                                 } else {
-                                    window.location.href = 'https://midas2.vercel.app/ro'
+                                    window.location.href = '/ro'
                                 }
                             } else if (data.loc === 'RU' || data.loc === 'UA') {
                                 return
                             } else {
-                                window.location.href = 'https://midas2.vercel.app/'
+                                window.location.href = '/'
                             }
                         })
                         .catch(error => {

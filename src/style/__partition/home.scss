@@ -28,7 +28,7 @@
                 width: 5px;
                 height: 170px;
                 content: '';
-                right: calc(100vw/2.1);
+                right: calc(100vw/2.5);
                 top: 0px;
                 background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(56,56,56,1) 100%);
                 animation: 1s line1 ease-out;
@@ -45,7 +45,7 @@
                 width: 5px;
                 height: 170px;
                 content: '';
-                right: 17vw;
+                right: 18vw;
                 top: 0px;
                 background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(56,56,56,1) 100%);
                 animation: 1s line2 ease-out;
@@ -62,7 +62,7 @@
                 width: 220px;
                 height: 5px;
                 content: '';
-                right: 8vw;
+                right: 9vw;
                 top: 90px;
                 background: linear-gradient(270deg, rgba(255,255,255,0) 0%, rgba(56,56,56,1) 100%);
                 animation: 1s line3 ease-out;
@@ -72,7 +72,7 @@
                     right: -220px;
                 }
                 to{
-                    right: 8vw;
+                    right: 9vw;
                 }
             }
             #line4{

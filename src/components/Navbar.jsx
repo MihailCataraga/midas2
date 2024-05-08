@@ -1,12 +1,15 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { IoMenu, IoClose } from "react-icons/io5";
+import { MdLanguage } from "react-icons/md";
 import { FaInstagram, FaFacebookF, FaWhatsapp, FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
 import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
     const [menu, setMenu] = useState(false)
+    const [lang, setLang] = useState(false)
 
     // Menu ref
     const menuRef = useRef(null)
@@ -30,6 +33,13 @@ export default function Navbar() {
             setMenu(false)
         }, 450)
     }
+    const closeLang = () => {
+        const elem = document.getElementById('lang')
+        elem.style.animation = 'langClose .5s linear'
+        setTimeout(() => {
+            setLang(false)
+        }, 450)
+    }
 
     useEffect(() => {
         document.addEventListener('mousedown', handleClickOutside);
@@ -42,7 +52,7 @@ export default function Navbar() {
     return (
         <div className='navbar'>
             {menu ? <IoClose className='icon iconActive' onClick={closeMenu} />
-            : <IoMenu className='icon' onClick={() => setMenu(true)} />
+                : <IoMenu className='icon' onClick={() => setMenu(true)} />
             }
             {menu && <div className='menu' id='menu' ref={menuRef}>
                 <nav>
@@ -60,8 +70,15 @@ export default function Navbar() {
                 <FaXTwitter className='icon' />
                 <div className='line'></div>
                 <FaWhatsapp className='icon' />
+                <IoIosMail className='icon' />
             </div>
-            <IoIosMail className='iconMail icon' />
+            <MdLanguage className={lang ? 'iconLang activeLang': 'iconLang'} onClick={lang ? closeLang : () => setLang(true)} />
+            {lang && <div className='langBox' id='lang'>
+                <Link to={'/'} onClick={() => {document.cookie = "language=en"}}>En</Link>
+                <Link to={'/ro'} onClick={() => {document.cookie = "language=ro"}}>Ro</Link>
+                <Link to={'/ru'} onClick={() => {document.cookie = "language=ru"}}>Ru</Link>
+            </div>
+            }
         </div>
     )
 }

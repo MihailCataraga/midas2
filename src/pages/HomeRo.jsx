@@ -9,7 +9,19 @@ export default function HomeRo() {
     const [ip, setIp] = useState('');
     
     useEffect(() => {
-        if (!ip) {
+        const cookies = document.cookie;
+
+        // Parsare cookie-uri și obține valoarea pentru "username"
+        const languageCookie = cookies.split(';').find(cookie => cookie.trim().startsWith('language='));
+        const language = languageCookie ? languageCookie.split('=')[1] : null;
+
+        if (language == 'en') {
+            window.location.href = '/'
+        }
+        if (language == 'ru') {
+            window.location.href = '/ru'
+        }
+        if (language === null) {
             fetch('https://ipinfo.io/json')
                 .then(response => response.json())
                 .then(data => {
@@ -31,13 +43,13 @@ export default function HomeRo() {
                             if (data.loc === 'MD' || data.loc === 'RO') {
                                 return;
                             } else if (data.loc === 'RU' || data.loc === 'UA') {
-                                if (window.location.href === 'https://midas2.vercel.app/ru') {
+                                if (window.location.href === '/ru') {
                                     return;
                                 } else {
-                                    window.location.href = 'https://midas2.vercel.app/ru'
+                                    window.location.href = '/ru'
                                 }
                             } else {
-                                window.location.href = 'https://midas2.vercel.app/'
+                                window.location.href = '/'
                             }
                         })
                         .catch(error => {

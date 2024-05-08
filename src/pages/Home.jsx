@@ -7,9 +7,21 @@ import { Link } from 'react-router-dom';
 
 export default function Home() {
     const [ip, setIp] = useState('');
-    
+
     useEffect(() => {
-        if (!ip) {
+        const cookies = document.cookie;
+
+        // Parsare cookie-uri și obține valoarea pentru "username"
+        const languageCookie = cookies.split(';').find(cookie => cookie.trim().startsWith('language='));
+        const language = languageCookie ? languageCookie.split('=')[1] : null;
+
+        if (language == 'ro') {
+            window.location.href = '/ro'
+        }
+        if (language == 'ru') {
+            window.location.href = '/ru'
+        }
+        if (language === null) {
             fetch('https://ipinfo.io/json')
                 .then(response => response.json())
                 .then(data => {
@@ -28,16 +40,16 @@ export default function Home() {
                         .then(data => {
                             // Redirectăm utilizatorul pe baza răspunsului primit de la serverul backend
                             if (data.loc === 'MD' || data.loc === 'RO') {
-                                if (window.location.href === 'https://midas2.vercel.app/ro') {
+                                if (window.location.href === '/ro') {
                                     return;
                                 } else {
-                                    window.location.href = 'https://midas2.vercel.app/ro'
+                                    window.location.href = '/ro'
                                 }
                             } else if (data.loc === 'RU' || data.loc === 'UA') {
-                                if (window.location.href === 'https://midas2.vercel.app/ru') {
+                                if (window.location.href === '/ru') {
                                     return;
                                 } else {
-                                    window.location.href = 'https://midas2.vercel.app/ru'
+                                    window.location.href = '/ru'
                                 }
                             } else {
                                 return;
