@@ -5,7 +5,7 @@ import { FaRegCheckCircle } from "react-icons/fa";
 import { FaArrowLeft } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 
-export default function Home() {
+export default function HomeRo() {
     const [ip, setIp] = useState('');
     
     useEffect(() => {
@@ -26,13 +26,10 @@ export default function Home() {
                     })
                         .then(res => res.json())
                         .then(data => {
+
                             // Redirectăm utilizatorul pe baza răspunsului primit de la serverul backend
                             if (data.loc === 'MD' || data.loc === 'RO') {
-                                if (window.location.href === 'https://midas2.vercel.app/ro') {
-                                    return;
-                                } else {
-                                    window.location.href = 'https://midas2.vercel.app/ro'
-                                }
+                                return;
                             } else if (data.loc === 'RU' || data.loc === 'UA') {
                                 if (window.location.href === 'https://midas2.vercel.app/ru') {
                                     return;
@@ -40,7 +37,7 @@ export default function Home() {
                                     window.location.href = 'https://midas2.vercel.app/ru'
                                 }
                             } else {
-                                return;
+                                window.location.href = 'https://midas2.vercel.app/'
                             }
                         })
                         .catch(error => {
@@ -58,7 +55,7 @@ export default function Home() {
             <main>
                 <section className='sec-1'>
                     <SecNavbar page='Home' />
-                    <h1>Midas Group</h1>
+                    <h1>Midas Group RO</h1>
                     <h2>Transformăm visele în web site-uri funcționale</h2>
                     <div className='line' id='line1'></div>
                     <div className='line' id='line2'></div>
