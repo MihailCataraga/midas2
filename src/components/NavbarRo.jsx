@@ -7,7 +7,7 @@ import { IoIosMail } from "react-icons/io";
 import { NavLink } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
-export default function Navbar() {
+export default function NavbarRo() {
     const [menu, setMenu] = useState(false)
     const [lang, setLang] = useState(false)
 
@@ -93,10 +93,10 @@ export default function Navbar() {
             }
             {menu && <div className='menu' id='menu' ref={menuRef}>
                 <nav>
-                    <NavLink to='/' onClick={scrollTop}>Home</NavLink>
-                    <NavLink to='/about' onClick={scrollTop}>About Us</NavLink>
-                    <NavLink to='/services' onClick={scrollTop}>Services</NavLink>
-                    <NavLink to='/portfolio' onClick={scrollTop}>Portfolio</NavLink>
+                    <NavLink to='/ro' onClick={scrollTop}>Acasă</NavLink>
+                    <NavLink to='/ro/about' onClick={scrollTop}>Despre noi</NavLink>
+                    <NavLink to='/ro/services' onClick={scrollTop}>Servicii</NavLink>
+                    <NavLink to='/ro/portfolio' onClick={scrollTop}>Portofoliu</NavLink>
                 </nav>
             </div>
             }

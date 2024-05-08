@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import Navbar from '../components/Navbar'
-import SecNavbar from '../components/SecNavbar'
 import { FaRegCheckCircle } from "react-icons/fa";
 import { FaArrowLeft } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
+import SecNavbarRo from '../components/SecNavbarRo';
+import NavbarRo from '../components/NavbarRo';
 
 export default function HomeRo() {
     const [ip, setIp] = useState('');
@@ -63,11 +63,11 @@ export default function HomeRo() {
     }, []); // Asigurăm că acest efect se execută doar o singură dată la încărcarea componentei
     return (
         <div className='home'>
-            <Navbar />
+            <NavbarRo />
             <main>
                 <section className='sec-1'>
-                    <SecNavbar page='Home' />
-                    <h1>Midas Group RO</h1>
+                    <SecNavbarRo page='Acasă' />
+                    <h1>Midas Group</h1>
                     <h2>Transformăm visele în web site-uri funcționale</h2>
                     <div className='line' id='line1'></div>
                     <div className='line' id='line2'></div>
@@ -77,24 +77,27 @@ export default function HomeRo() {
                     <div className='line' id='line6'></div>
                     <b className='line' id='scroll'><FaArrowLeft className='icon' />SCROLL</b>
                 </section>
-                <section className='sec-2'>
+                <section className='sec-2' id='sec-2'>
                     <div className='form'>
                         <form>
                             <div className='top'>
                                 <div className='left'>
-                                    <h3>Contact us</h3>
-                                    <input type='text' placeholder='Name' />
-                                    <input type='number' placeholder='Number' />
+                                    <h3>Contactaţi-ne</h3>
+                                    <input type='text' placeholder='Nume' />
+                                    <input type='number' placeholder='Număr' />
                                     <input type='email' placeholder='Email' />
-                                    <input id='message' type='text' placeholder='Message' />
+                                    <input id='message' type='text' placeholder='Mesaj' />
                                 </div>
                                 <div className='right'>
                                     <p>+373 61234567</p>
                                     <p>info@midasgroup.works</p>
                                 </div>
                             </div>
-                            <p><FaRegCheckCircle className='icon' />I accept the <Link to='/'>privacy policy</Link></p>
-                            <button>SEND</button>
+                            <div className='check'>
+                                <FaRegCheckCircle className='icon' />
+                                <p>Accept <Link to='/'>politica de confidențialitate.</Link></p>
+                            </div>
+                            <button>TRIMITE</button>
                         </form>
                     </div>
                 </section>

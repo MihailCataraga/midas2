@@ -1,17 +1,17 @@
 import React from 'react'
 import { HashLink } from 'react-router-hash-link';
 
-export default function SecNavbar(props) {
+export default function SecNavbarRo(props) {
   return (
     <div className='secNavbar'>
         <div className='left'>
             <p className='logo'>Midas Group</p>
             <p className='page'>{props.page}</p>
-            <HashLink to='/#sec-2'>Contacts</HashLink>
+            <HashLink to='/ro/#sec-2'>Contacte</HashLink>
         </div>
         <div className='right'>
-            <p>Website for</p>
-            <p id='secP'>your Business</p>
+            <p>Site-ul web</p>
+            <p id='secP'>pentru afacerea dvs</p>
         </div>
         
     </div>

@@ -80,7 +80,7 @@ export default function Home() {
                     <div className='line' id='line6'></div>
                     <b className='line' id='scroll'><FaArrowLeft className='icon' />SCROLL</b>
                 </section>
-                <section className='sec-2'>
+                <section className='sec-2' id='sec-2'>
                     <div className='form'>
                         <form>
                             <div className='top'>
