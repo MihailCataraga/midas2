@@ -41,6 +41,21 @@ export default function Navbar() {
         }, 450)
     }
 
+    // Pulse onClick
+    const pulse = (param) => {
+        const elem = document.getElementById(param)
+        elem.style.color = '#a18900'
+        setTimeout(() => {
+            elem.style.color = '#ffd700'
+            elem.addEventListener('mouseenter', function() {
+                this.style.color = '#ffd700'; // Schimbă culoarea la hover
+            });
+            elem.addEventListener('mouseleave', function() {
+                this.style.color = '#f7f7f7'; // Restabilește culoarea la ieșirea mouse-ului
+            });
+        }, 500)
+    }
+
     useEffect(() => {
         document.addEventListener('mousedown', handleClickOutside);
         document.addEventListener('scroll', scrollCloseMenu);
@@ -64,7 +79,7 @@ export default function Navbar() {
             </div>
             }
             <div className='social'>
-                <FaInstagram className='icon' />
+                <FaInstagram className='icon' id='instagram' onClick={() => pulse('instagram')} />
                 <FaFacebookF className='icon' />
                 <FaLinkedinIn className='icon' />
                 <FaXTwitter className='icon' />
