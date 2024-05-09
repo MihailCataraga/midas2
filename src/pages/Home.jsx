@@ -1,12 +1,69 @@
 import React, { useEffect, useState } from 'react'
 import Navbar from '../components/Navbar'
 import SecNavbar from '../components/SecNavbar'
-import { FaRegCheckCircle } from "react-icons/fa";
+import { FaRegCheckCircle, FaRegCircle  } from "react-icons/fa";
 import { FaArrowLeft } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 
 export default function Home() {
     const [ip, setIp] = useState('');
+    const [form, setForm] = useState({
+        name: '',
+        number: '',
+        email: '',
+        message: '',
+        check: true
+    })
+
+    //Send Form
+    const sendForm = () => {
+        const button = document.getElementById('submit')
+        if(form.name === '' || form.number === '' || form.email === '' || form.check === false) {
+            button.setAttribute('disabled', 'disabled');
+            if(form.name === '') {
+                const name = document.getElementById('name')
+                name.style.border = '1px solid #bf57df'
+            } else {
+                const name = document.getElementById('name')
+                name.style.border = '1px solid transparent'
+            }
+            if(form.number === '') {
+                const number = document.getElementById('number')
+                number.style.border = '1px solid #bf57df'
+            } else {
+                const number = document.getElementById('number')
+                number.style.border = '1px solid transparent'
+            }
+            if(form.email === '') {
+                const email = document.getElementById('email')
+                email.style.border = '1px solid #bf57df'
+            } else {
+                const email = document.getElementById('email')
+                email.style.border = '1px solid transparent'
+            }
+            if(form.check === false) {
+                const uncheck = document.getElementById('uncheck')
+                uncheck.style.color = '#bf57df'
+            } else {
+                const uncheck = document.getElementById('uncheck')
+                uncheck.style.color = '#383838'
+            }
+        } else {
+            button.removeAttribute('disabled');
+            //Send form data
+        }
+    }
+
+    // Change data from Form
+    const handleChangeData = (event) => {
+        const button = document.getElementById('submit')
+        const { name, value } = event.target;
+        setForm({
+            ...form,
+            [name]: value
+        });
+        button.removeAttribute('disabled');
+    };
 
     useEffect(() => {
         const cookies = document.cookie;
@@ -86,10 +143,10 @@ export default function Home() {
                             <div className='top'>
                                 <div className='left'>
                                     <h3>Contact us</h3>
-                                    <input type='text' placeholder='Name' />
-                                    <input type='number' placeholder='Number' />
-                                    <input type='email' placeholder='Email' />
-                                    <input id='message' type='text' placeholder='Message' />
+                                    <input type='text' name='name' id='name' placeholder='Name' onChange={handleChangeData} />
+                                    <input type='number' name='number' id='number' placeholder='Number' onChange={handleChangeData} />
+                                    <input type='email' name='email' id='email' placeholder='Email' onChange={handleChangeData} />
+                                    <input id='message' name='message' type='text' placeholder='Message' onChange={handleChangeData} />
                                 </div>
                                 <div className='right'>
                                     <p>+373 61234567</p>
@@ -97,10 +154,13 @@ export default function Home() {
                                 </div>
                             </div>
                             <div className='check'>
-                                <FaRegCheckCircle className='icon' />
+                                {form.check 
+                                    ? <FaRegCheckCircle className='icon' name='check' onClick={() => {setForm({ ...form, check: !form.check }), document.getElementById('submit').removeAttribute('disabled')}} /> 
+                                    : <FaRegCircle className='icon' name='check' id='uncheck' onClick={() => {setForm({ ...form, check: !form.check }), document.getElementById('submit').removeAttribute('disabled')}} 
+                                />}
                                 <p>I accept the <Link to='/'>privacy policy.</Link></p>
                             </div>
-                            <button>SEND</button>
+                            <button id='submit' onClick={sendForm}>SEND</button>
                         </form>
                     </div>
                 </section>

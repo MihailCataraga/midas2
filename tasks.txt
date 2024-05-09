@@ -1,1 +1,2 @@
-pe logo de pus link in dependenta de limba si sa te duca pe pagina principala
+1. pe logo de pus link in dependenta de limba si sa te duca pe pagina principala
+2. endpointul pentru trimiterea formului.
