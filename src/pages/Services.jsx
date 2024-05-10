@@ -4,6 +4,24 @@ import SecNavbar from '../components/SecNavbar'
 import card from '../data/servicesCard'
 
 export default function Services() {
+    const [value, setValue] = useState(0)
+    const test = () => {
+        const elem = document.getElementById('serviceCard')
+        const rect = elem.getBoundingClientRect()
+        setValue(rect)
+        if(rect > 0) {
+            elem.scrollTo({
+                top: 400, behavior: 'smooth'
+            })
+        }
+    }
+    useEffect(() => {
+        document.addEventListener('scroll', test);
+
+        return () => {
+            document.removeEventListener('scroll', test);
+        }
+    })
     // const [cardNum, setCardNum] = useState(0);
     
     // const dot = () => {
@@ -58,7 +76,7 @@ export default function Services() {
             <section className='sec-1'>
                 <h1>What types of websites do we realize?</h1>
                 <div className='servicesType'>
-                    <div className='serviceCard'>
+                    <div className='serviceCard' id='serviceCard'>
                         {card.map((i) => {
                             return (
                                 <div className={`card card${i.id}`} id={`card${i.id}`} key={i.id} style={{backgroundImage: `url(${i.img})`}}>
@@ -69,7 +87,7 @@ export default function Services() {
                         })}
                         
                     </div>
-                    <div className='dotsLine'>
+                    {/* <div className='dotsLine'>
                         <div className='dots'>
                             {card.map((i) => {
                                 return(
@@ -80,7 +98,7 @@ export default function Services() {
                             })}
                         </div>
                         <div className='line'></div>
-                    </div>
+                    </div> */}
                 </div>
             </section>
             <div className='test' id='test'>
