@@ -35,11 +35,16 @@ export default function Navbar() {
 
     // Close menu when you scroll
     const scrollCloseMenu = () => {
-        closeMenu()
+        if(menu) {
+            closeMenu()
+        }
+        
     }
     // Close lang when you scroll
     const scrollCloseLang = () => {
-        closeLang()
+        if(lang) {
+            closeLang()
+        }
     }
 
     const closeMenu = () => {
