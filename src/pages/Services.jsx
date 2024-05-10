@@ -4,45 +4,14 @@ import SecNavbar from '../components/SecNavbar'
 import card from '../data/servicesCard'
 
 export default function Services() {
-    const [cardNum, setCardNum] = useState(0);
-    
-    // const dot = () => {
-    //     const elem = document.getElementById(`card1`)
-    //     // elem.style.animationDelay = '5s'
-    //     elem.style.animation = 'none'
-    //     elem.style.marginTop = `calc(-60vh * ${cardNum})`
-    // }
 
-    const dot6 = () => {
-        const elem = document.getElementById('card1')
-        elem.style.animation = '10s card6 linear'
-        setTimeout(() => {
-            elem.style.animation = '35s card linear infinite'
-        }, 10000)
-    }
-
-    // useEffect(() => {
-    //     dot()
-    //     const time = cardNum === 7 ? 0 : 5000
-    //     const timeout = setTimeout(() => {
-
-    //         const elem = document.getElementById(`card1`)
-    //         elem.style.animation = '35s card linear infinite'
-    //         // elem.style.marginTop = `calc(-60vh * ${cardNum})`
-    //     }, time)
-        
-    //     console.log(cardNum)
-    //     return () => {
-    //         clearTimeout(timeout)
-    //     }
-    // }, [cardNum])
   return (
     <div className='services'>
         <Navbar />
         <main>
             <SecNavbar page='Services' />
             <section className='sec-1'>
-                <h1>What types of websites do we realize?</h1>
+                <h1 id='h1'>What types of websites do we realize?</h1>
                 <div className='servicesType'>
                     <div className='serviceCard'>
                         {card.map((i) => {
@@ -57,42 +26,21 @@ export default function Services() {
                     </div>
                     <div className='dotsLine'>
                         <div className='dots'>
-                            {/* {card.map((i) => {
+                            {card.map((i) => {
                                 return(
                                     <div key={i.id} className={`dot dot${i.id}`} onClick={() => {setCardNum(i.id)}}>
 
                                     </div>
                                 )
-                            })} */}
-                            <div id='dot1' className={`dot dot1`}></div>
-                            <div id='dot2' className={`dot dot2`}></div>
-                            <div id='dot3' className={`dot dot3`}></div>
-                            <div id='dot4' className={`dot dot4`}></div>
-                            <div id='dot5' className={`dot dot5`}></div>
-                            <div id='dot6' className={`dot dot6`} onClick={dot6}></div>
-                            <div id='dot7' className={`dot dot7`}></div>
+                            })}
                         </div>
                         <div className='line'></div>
                     </div>
                 </div>
             </section>
-            <div className='test' id='test'>
-                <div className='div1'>
-
-                </div>
-                <div className='div2'>
-
-                </div>
-                <div className='div3'>
-
-                </div>
-                <div className='div4'>
-
-                </div>
-                <div className='div5'>
-
-                </div>
-            </div>
+            <section className='sec-2'>
+                fdgsbdfgs
+            </section>
         </main>
     </div>
   )

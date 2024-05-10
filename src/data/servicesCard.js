@@ -40,13 +40,7 @@ const card = [
         img: "/img/service7.webp",
         title: "Orice alt tip de website",
         text: "Suntem capabili să dezvoltăm orice tip de site web, adaptat nevoilor și cerințelor specifice ale clienților noștri. Avem expertiza și resursele necesare pentru a crea soluții personalizate și eficiente."
-    },
-    {
-        id: 8,
-        img: "/img/service1.webp",
-        title: "Landing Page",
-        text: "Este o pagină simplă, cu un mesaj clar și un buton de acțiune, concepută pentru a converti vizitatorii în clienți sau a-i îndruma către o anumită acțiune, cum ar fi completarea unui formular sau achiziționarea unui produs."
-    },
+    }
 ]
 
 export default card;

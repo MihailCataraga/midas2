@@ -3,44 +3,53 @@
 
     main {
         margin-left: 80px;
-
         .sec-1 {
-            height: calc(100vh - 102px);
+            position: relative;
+            // height: calc(100vh - 102px);
             display: flex;
-            align-items: center;
-            justify-content: center;
+            // align-items: center;
+            // justify-content: center;
             gap: 2vw;
             width: 100%;
-
-            h1 {
+            height: 700vh;
+            #h1 {
+                position: sticky;
+                top: calc(50vh - 76px);
                 font-size: 64px;
                 font-weight: 400;
                 width: 30vw;
-                margin: 120px 0px 150px 80px;
+                margin: 120px 0px 50vh 80px;
                 color: $black;
+                height: 200px;
             }
 
             .servicesType {
                 display: flex;
                 gap: 1vw;
                 flex: 1.2;
+                height: 700vh;
                 // width: 70%;
-
+                position: sticky;
                 .serviceCard {
-                    position: relative;
-                    width: 100%;
-                    border-radius: 25px;
-                    height: 60vh;
-                    box-shadow: 0px 0px 10px 10px rgba(107, 107, 107, 0.75);
-                    background-color: rgba(107, 107, 107, 0.75);
-                    overflow: hidden;
+                    position: sticky;
+                    top: 200px;
+                    // padding-bottom: 100px;
+                    // width: 100%;
+                    // border-radius: 25px;
+                    // height: 60vh;
+                    // box-shadow: 0px 0px 10px 10px rgba(107, 107, 107, 0.75);
+                    // background-color: rgba(107, 107, 107, 0.75);
+                    // overflow: hidden;
 
                     .card {
                         background-repeat: no-repeat;
                         background-size: cover;
                         background-position: center;
                         // width: 100%;
-                        height: 100%;
+                        position: sticky;
+                        top: 200px;
+                        margin-bottom: 40vh;
+                        height: 60vh;
                         display: flex;
                         flex-direction: column;
                         justify-content: center;
@@ -59,102 +68,102 @@
                         }
                     }
 
-                    @keyframes card {
-                        0% {
-                            margin-top: 0vh;
-                        }
+                    // @keyframes card {
+                    //     0% {
+                    //         margin-top: 0vh;
+                    //     }
 
-                        0.1% {
-                            margin-top: 0vh;
-                        }
+                    //     0.1% {
+                    //         margin-top: 0vh;
+                    //     }
 
-                        14.29% {
-                            margin-top: 0vh;
-                        }
+                    //     14.29% {
+                    //         margin-top: 0vh;
+                    //     }
 
-                        16.29% {
-                            margin-top: -60vh;
-                            /* 14.29% (poziția inițială) + 2% (tranziție) */
-                        }
+                    //     16.29% {
+                    //         margin-top: -60vh;
+                    //         /* 14.29% (poziția inițială) + 2% (tranziție) */
+                    //     }
 
-                        28.57% {
-                            margin-top: -60vh;
-                        }
+                    //     28.57% {
+                    //         margin-top: -60vh;
+                    //     }
 
-                        30.57% {
-                            margin-top: -120vh;
-                            /* 28.57% (poziția inițială) + 2% (tranziție) */
-                        }
+                    //     30.57% {
+                    //         margin-top: -120vh;
+                    //         /* 28.57% (poziția inițială) + 2% (tranziție) */
+                    //     }
 
-                        42.86% {
-                            margin-top: -120vh;
-                        }
+                    //     42.86% {
+                    //         margin-top: -120vh;
+                    //     }
 
-                        44.86% {
-                            margin-top: -180vh;
-                            /* 42.86% (poziția inițială) + 2% (tranziție) */
-                        }
+                    //     44.86% {
+                    //         margin-top: -180vh;
+                    //         /* 42.86% (poziția inițială) + 2% (tranziție) */
+                    //     }
 
-                        57.14% {
-                            margin-top: -180vh;
-                        }
+                    //     57.14% {
+                    //         margin-top: -180vh;
+                    //     }
 
-                        59.14% {
-                            margin-top: -240vh;
-                            /* 57.14% (poziția inițială) + 2% (tranziție) */
-                        }
+                    //     59.14% {
+                    //         margin-top: -240vh;
+                    //         /* 57.14% (poziția inițială) + 2% (tranziție) */
+                    //     }
 
-                        71.43% {
-                            margin-top: -240vh;
-                        }
+                    //     71.43% {
+                    //         margin-top: -240vh;
+                    //     }
 
-                        73.43% {
-                            margin-top: -300vh;
-                            /* 71.43% (poziția inițială) + 2% (tranziție) */
-                        }
+                    //     73.43% {
+                    //         margin-top: -300vh;
+                    //         /* 71.43% (poziția inițială) + 2% (tranziție) */
+                    //     }
 
-                        85.71% {
-                            margin-top: -300vh;
-                        }
+                    //     85.71% {
+                    //         margin-top: -300vh;
+                    //     }
 
-                        87.71% {
-                            margin-top: -360vh;
-                            /* 85.71% (poziția inițială) + 2% (tranziție) */
-                        }
+                    //     87.71% {
+                    //         margin-top: -360vh;
+                    //         /* 85.71% (poziția inițială) + 2% (tranziție) */
+                    //     }
 
-                        98% {
-                            margin-top: -360vh;
-                        }
+                    //     98% {
+                    //         margin-top: -360vh;
+                    //     }
 
-                        99.999999% {
-                            margin-top: -420vh;
-                        }
+                    //     99.999999% {
+                    //         margin-top: -420vh;
+                    //     }
 
-                        100% {
-                            margin-top: 0vh;
-                        }
-                    }
-                    @keyframes card6 {
-                        0%{
-                            margin-top: -300vh;
-                        }
-                        43%{
-                            margin-top: -300vh;
-                        }
-                        50%{
-                            margin-top: -360vh;
-                        }
-                        91%{
-                            margin-top: -360vh;
-                        }
-                        99.999999% {
-                            margin-top: -420vh;
-                        }
+                    //     100% {
+                    //         margin-top: 0vh;
+                    //     }
+                    // }
+                    // @keyframes card6 {
+                    //     0%{
+                    //         margin-top: -300vh;
+                    //     }
+                    //     43%{
+                    //         margin-top: -300vh;
+                    //     }
+                    //     50%{
+                    //         margin-top: -360vh;
+                    //     }
+                    //     91%{
+                    //         margin-top: -360vh;
+                    //     }
+                    //     99.999999% {
+                    //         margin-top: -420vh;
+                    //     }
 
-                        100% {
-                            margin-top: 0vh;
-                        }
-                    }
+                    //     100% {
+                    //         margin-top: 0vh;
+                    //     }
+                    // }
 
                     .card1 {
                         align-items: flex-end;
@@ -244,9 +253,13 @@
                 }
 
                 .dotsLine {
-                    margin: 20px;
+                    top: calc(50vh - 125px);
                     display: flex;
-                    align-items: center;
+                    // align-items: center;
+                    position: sticky;
+                    // top: 200px;
+                    height: 50vh;
+                    margin-bottom: 35vh;
 
                     .dots {
                         .dot {
@@ -272,47 +285,9 @@
                 }
             }
         }
-
-        .test {
-            width: 50vw;
-            height: 50vh;
-            border: 3px solid red;
-            overflow: hidden;
-            /* Ascundem orice conținut care iese în afara limitelor */
-            position: relative;
-
-            div {
-                width: 100%;
-                height: 100%;
-                position: absolute;
-                /* Elementele div interioare sunt poziționate absolut pentru a se suprapune */
-                transition: transform 1s ease;
-            }
-
-            .div1 {
-                background-color: rosybrown;
-                top: 0; /* Div-ul 1 va fi la începutul containerului */
-            }
-            
-            .div2 {
-                background-color: rgb(51, 28, 28);
-                top: 100%; /* Div-ul 2 va fi poziționat sub div-ul 1 */
-            }
-            
-            .div3 {
-                background-color: rgb(30, 68, 110);
-                top: 200%; /* Div-ul 3 va fi poziționat sub div-ul 2 */
-            }
-            
-            .div4 {
-                background-color: rgb(27, 182, 47);
-                top: 300%; /* Div-ul 4 va fi poziționat sub div-ul 3 */
-            }
-            
-            .div5 {
-                background-color: rgb(178, 180, 37);
-                top: 400%; /* Div-ul 5 va fi poziționat sub div-ul 4 */
-            }
+        .sec-2{
+            height: 200vh;
+            background: red;
         }
     }
 }
