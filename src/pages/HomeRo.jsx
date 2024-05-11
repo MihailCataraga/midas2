@@ -63,7 +63,7 @@ export default function HomeRo() {
     }, []); // Asigurăm că acest efect se execută doar o singură dată la încărcarea componentei
     return (
         <div className='home'>
-            <NavbarRo />
+            <NavbarRo path='/' />
             <main>
                 <section className='sec-1'>
                     <SecNavbarRo page='Acasă' />

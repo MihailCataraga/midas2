@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react'
-import Navbar from '../components/Navbar'
-import SecNavbar from '../components/SecNavbar'
-import card from '../data/servicesCard'
-import site from '../data/siteType'
+import card from '../data/servicesCardRu'
+import NavbarRu from '../components/NavbarRu'
+import SecNavbarRu from '../components/SecNavbarRu'
+import site from '../data/siteTypeRu'
 import { GoDotFill } from "react-icons/go";
 
-export default function Services() {
+export default function ServicesRu() {
     const dot1 = () => {
         window.scrollTo({
             top: 0,
@@ -50,7 +50,7 @@ export default function Services() {
     }
     const handleScroll = () => {
         const scroll = window.scrollX || document.documentElement.scrollTop;
-        if (scroll >= 900) {
+        if(scroll >= 900) {
             const elem5 = document.getElementById('dot5')
             elem5.style.background = '#979797'
             const elem4 = document.getElementById('dot4')
@@ -63,7 +63,7 @@ export default function Services() {
             const elem1 = document.getElementById('dot1')
             elem1.style.border = '5px solid #f7f7f7'
             elem1.style.background = '#616161'
-        } else if (scroll < 900) {
+        } else if(scroll < 900) {
             const elem2 = document.getElementById('dot2')
             elem2.style.border = '5px solid #f7f7f7'
             elem2.style.background = '#616161'
@@ -81,7 +81,7 @@ export default function Services() {
             const elem3 = document.getElementById('dot3')
             elem3.style.background = '#757575'
         }
-        if (scroll >= 2100) {
+        if(scroll >= 2100) {
             const elem7 = document.getElementById('dot7')
             elem7.style.background = '#b8b8b8'
             const elem6 = document.getElementById('dot6')
@@ -98,11 +98,11 @@ export default function Services() {
             const elem2 = document.getElementById('dot2')
             elem2.style.border = '5px solid #f7f7f7'
             elem2.style.background = '#616161'
-        } else if (scroll < 2100) {
+        } else if(scroll < 2100) {
             const elem = document.getElementById('dot3')
             elem.style.border = '5px solid #f7f7f7'
         }
-        if (scroll >= 3300) {
+        if(scroll >= 3300) {
             const elem7 = document.getElementById('dot7')
             elem7.style.background = '#979797'
             const elem6 = document.getElementById('dot6')
@@ -119,11 +119,11 @@ export default function Services() {
             const elem3 = document.getElementById('dot3')
             elem3.style.border = '5px solid #f7f7f7'
             elem3.style.background = '#616161'
-        } else if (scroll < 3300) {
+        } else if(scroll < 3300) {
             const elem = document.getElementById('dot4')
             elem.style.border = '5px solid #f7f7f7'
         }
-        if (scroll >= 4500) {
+        if(scroll >= 4500) {
             const elem7 = document.getElementById('dot7')
             elem7.style.background = '#757575'
             const elem6 = document.getElementById('dot6')
@@ -140,11 +140,11 @@ export default function Services() {
             const elem4 = document.getElementById('dot4')
             elem4.style.border = '5px solid #f7f7f7'
             elem4.style.background = '#616161'
-        } else if (scroll < 4500) {
+        } else if(scroll < 4500) {
             const elem = document.getElementById('dot5')
             elem.style.border = '5px solid #f7f7f7'
         }
-        if (scroll >= 5700) {
+        if(scroll >= 5700) {
             const elem7 = document.getElementById('dot7')
             elem7.style.background = '#616161'
             const elem4 = document.getElementById('dot4')
@@ -161,11 +161,11 @@ export default function Services() {
             const elem5 = document.getElementById('dot5')
             elem5.style.border = '5px solid #f7f7f7'
             elem5.style.background = '#616161'
-        } else if (scroll < 5700) {
+        } else if(scroll < 5700) {
             const elem = document.getElementById('dot6')
             elem.style.border = '5px solid #f7f7f7'
         }
-        if (scroll >= 6900) {
+        if(scroll >= 6900) {
             const elem5 = document.getElementById('dot5')
             elem5.style.background = '#757575'
             const elem4 = document.getElementById('dot4')
@@ -182,7 +182,7 @@ export default function Services() {
             const elem6 = document.getElementById('dot6')
             elem6.style.border = '5px solid #f7f7f7'
             elem6.style.background = '#616161'
-        } else if (scroll < 6900) {
+        } else if(scroll < 6900) {
             const elem = document.getElementById('dot7')
             elem.style.border = '5px solid #f7f7f7'
         }
@@ -194,37 +194,37 @@ export default function Services() {
             window.removeEventListener('scroll', handleScroll);
         };
     }, [])
-    return (
-        <div className='services'>
-            <Navbar path='/services' />
-            <main>
-                <SecNavbar page='Services' />
-                <section className='sec-1'>
-                    <h1 id='h1'>What types of websites do we realize?</h1>
-                    <div className='servicesType'>
-                        <div className='serviceCard'>
-                            {card.map((i) => {
-                                return (
-                                    <div className={`card card${i.id}`} id={`card${i.id}`} key={i.id} style={{ backgroundImage: `url(${i.img})` }}>
-                                        <p className='title'>{i.title}</p>
-                                        <p>{i.text}</p>
-                                    </div>
-                                )
-                            })}
-
-                        </div>
-                        <div className='dots'>
-                            <div className={`dot dot1`} id={`dot1`} onClick={dot1}></div>
-                            <div className={`dot dot2`} id={`dot2`} onClick={dot2}></div>
-                            <div className={`dot dot3`} id={`dot3`} onClick={dot3}></div>
-                            <div className={`dot dot4`} id={`dot4`} onClick={dot4}></div>
-                            <div className={`dot dot5`} id={`dot5`} onClick={dot5}></div>
-                            <div className={`dot dot6`} id={`dot6`} onClick={dot6}></div>
-                            <div className={`dot dot7`} id={`dot7`} onClick={dot7}></div>
-                        </div>
+  return (
+    <div className='services'>
+        <NavbarRu path='/services' />
+        <main>
+            <SecNavbarRu page='Services' />
+            <section className='sec-1'>
+                <h1 id='h1'>Какие типы сайтов мы реализуем?</h1>
+                <div className='servicesType'>
+                    <div className='serviceCard'>
+                        {card.map((i) => {
+                            return (
+                                <div className={`card card${i.id}`} id={`card${i.id}`} key={i.id} style={{backgroundImage: `url(${i.img})`}}>
+                                    <p className='title'>{i.title}</p>
+                                    <p>{i.text}</p>
+                                </div>
+                            )
+                        })}
+                        
                     </div>
-                </section>
-                <section className='sec-2'>
+                    <div className='dots'>
+                        <div className={`dot dot1`} id={`dot1`} onClick={dot1}></div>
+                        <div className={`dot dot2`} id={`dot2`} onClick={dot2}></div>
+                        <div className={`dot dot3`} id={`dot3`} onClick={dot3}></div>
+                        <div className={`dot dot4`} id={`dot4`} onClick={dot4}></div>
+                        <div className={`dot dot5`} id={`dot5`} onClick={dot5}></div>
+                        <div className={`dot dot6`} id={`dot6`} onClick={dot6}></div>
+                        <div className={`dot dot7`} id={`dot7`} onClick={dot7}></div>
+                    </div>
+                </div>
+            </section>
+            <section className='sec-2'>
                     {
                         site.map((item) => {
                             return (
@@ -246,7 +246,7 @@ export default function Services() {
                         })
                     }
                 </section>
-            </main>
-        </div>
-    )
+        </main>
+    </div>
+  )
 }

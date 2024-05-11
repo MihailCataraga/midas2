@@ -7,7 +7,7 @@ import { IoIosMail } from "react-icons/io";
 import { NavLink } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
-export default function NavbarRu() {
+export default function NavbarRu(props) {
     const [menu, setMenu] = useState(false)
     const [lang, setLang] = useState(false)
 
@@ -35,11 +35,16 @@ export default function NavbarRu() {
 
     // Close menu when you scroll
     const scrollCloseMenu = () => {
-        closeMenu()
+        if(menu) {
+            closeMenu()
+        }
+        
     }
     // Close lang when you scroll
     const scrollCloseLang = () => {
-        closeLang()
+        if(lang) {
+            closeLang()
+        }
     }
 
     const closeMenu = () => {
@@ -111,9 +116,9 @@ export default function NavbarRu() {
             </div>
             <MdLanguage className={lang ? 'iconLang activeLang': 'iconLang'} id='langIcon' onClick={lang ? () => {closeLang(), pulse('langIcon')} : () => {setLang(true), pulse('langIcon')}} />
             {lang && <div className='langBox' id='lang' ref={langRef}>
-                <Link to={'/'} onClick={() => {document.cookie = "language=en", scrollTop()}}>EN</Link>
-                <Link to={'/ro'} onClick={() => {document.cookie = "language=ro", scrollTop()}}>RO</Link>
-                <Link to={'/ru'} onClick={() => {document.cookie = "language=ru", scrollTop()}}>RU</Link>
+                <Link to={props.path} onClick={() => {document.cookie = "language" + '=;expires=Thu, 01 Jan 1970 00:00:01 GMT;', document.cookie = "language=en;path=/", scrollTop()}}>EN</Link>
+                <Link to={'/ro' + props.path} onClick={() => {document.cookie = "language" + '=;expires=Thu, 01 Jan 1970 00:00:01 GMT;', document.cookie = "language=ro;path=/", scrollTop()}}>RO</Link>
+                <Link to={'/ru' + props.path} onClick={() => {document.cookie = "language" + '=;expires=Thu, 01 Jan 1970 00:00:01 GMT;', document.cookie = "language=ru;path=/", scrollTop()}}>RU</Link>
             </div>
             }
         </div>

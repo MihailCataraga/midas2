@@ -123,7 +123,7 @@ export default function Home() {
     }, []); // Asigurăm că acest efect se execută doar o singură dată la încărcarea componentei
     return (
         <div className='home'>
-            <Navbar />
+            <Navbar path='/' />
             <main>
                 <section className='sec-1'>
                     <SecNavbar page='Home' />
