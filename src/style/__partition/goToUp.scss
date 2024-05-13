@@ -1,0 +1,23 @@
+.goToUp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    border-radius: 17px;
+    cursor: pointer;
+    transition: 0.5s;
+    .arrow{
+        padding: 10px 12px;
+        border-radius: 15px;
+        background-color: $black;
+        margin: 2px;
+        border: 2px solid $white;
+        .icon{
+            font-size: 28px;
+            color: $white;
+        }
+    }
+}
+.goToUp:hover{
+    transform: scale(1.1);
+}

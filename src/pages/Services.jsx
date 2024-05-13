@@ -4,6 +4,8 @@ import SecNavbar from '../components/SecNavbar'
 import card from '../data/servicesCard'
 import site from '../data/siteType'
 import { GoDotFill } from "react-icons/go";
+import GoToUp from '../components/GoToGo'
+import Footer from '../components/Footer'
 
 export default function Services() {
     const dot1 = () => {
@@ -247,6 +249,8 @@ export default function Services() {
                     }
                 </section>
             </main>
+            <GoToUp />
+            <Footer />
         </div>
     )
 }

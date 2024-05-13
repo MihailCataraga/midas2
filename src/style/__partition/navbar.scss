@@ -46,7 +46,7 @@
         border-top-right-radius: 25px;
         border-bottom-right-radius: 25px;
         animation: menuOpen .5s linear;
-        z-index: 998;
+        z-index: 1001;
 
         nav {
             display: flex;
@@ -138,7 +138,7 @@
         -moz-box-shadow: 10px 10px 5px 10px rgba(107, 107, 107, 0.75);
         box-shadow: 10px 0px 10px 0px rgba(107, 107, 107, 0.75);
         animation: .5s lang linear;
-        z-index: 998;
+        z-index: 1001;
         a {
             text-decoration: none;
             color: $white;

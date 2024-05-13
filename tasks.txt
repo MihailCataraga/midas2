@@ -2,4 +2,81 @@
 2. endpointul pentru trimiterea formului.
 3. Mesaj 
 
-0.7s
+La Midas Group, credem că fiecare afacere merită să fie reprezentată cu profesionalism online. De aceea, ne-am angajat să oferim soluții digitale inovatoare, adaptate nevoilor și obiectivelor individuale ale fiecărui client. 
+
+1. Planificare și cercetare:
+    Definirea obiectivelor și a cerințelor proiectului.
+    Identificarea publicului țintă și a nevoilor acestuia.
+    Cercetarea concurenței și a pieței.
+    Crearea unei structuri de site și a unui plan de navigare.
+2. Design:
+    Crearea unui concept vizual pentru site, inclusiv paleta de culori, tipografia și designul elementelor.
+    Dezvoltarea wireframe-urilor și a mockup-urilor pentru a planifica layout-ul și interacțiunile pe site.
+    Crearea unor elemente grafice precum logo-uri, imagini și grafice.
+    Asigurarea că design-ul este responsiv și adaptabil la diferite dispozitive și dimensiuni de ecran.
+3. Dezvoltare:
+    Implementarea design-ului în cod folosind HTML, CSS și JavaScript.
+    Dezvoltarea funcționalităților interactive și a elementelor dinamicie folosind JavaScript și librării sau framework-uri frontend (cum ar fi React, Angular sau Vue.js).
+    Integrarea cu un sistem de gestionare a conținutului (Admin Page), dacă este necesar.
+    Optimizarea performanței site-ului, vitezei de încărcare și a optimizării SEO.
+4. Testare:
+    Testarea funcționalităților și a compatibilității site-ului pe diferite browsere și dispozitive.
+    Verificarea corectitudinii și a consistenței design-ului și a interacțiunilor.
+    Identificarea și remedierea erorilor și problemelor de performanță.
+5. Lansare:
+    Configurarea unui server web și a domeniului pentru a găzdui site-ul.
+    Transferarea codului și a conținutului pe server.
+    Testarea finală pe serverul live pentru a verifica că totul funcționează corect.
+
+
+At Midas Group, we believe that every business deserves to be professionally represented online. That's why we're committed to offering innovative digital solutions tailored to each client's individual needs and goals.
+
+1. Planning and Research:
+     Defining project objectives and requirements.
+     Identifying the target audience and their needs.
+     Competitive and market research.
+     Creating a site structure and navigation plan.
+2. Design:
+     Creating a visual concept for the site, including color palette, typography and element design.
+     Development of wireframes and mockups to plan layout and site interactions.
+     Creating graphics such as logos, images and graphics.
+     Ensuring the design is responsive and adaptable to different devices and screen sizes.
+3. Development:
+     Implementing design in code using HTML, CSS and JavaScript.
+     Development of interactive functionalities and dynamic elements using JavaScript and frontend libraries or frameworks (such as React, Angular or Vue.js).
+     Integration with a content management system (Admin Page), if necessary.
+     Optimizing site performance, loading speed and SEO optimization.
+4. Testing:
+     Testing the functionality and compatibility of the site on different browsers and devices.
+     Checking design and interactions for correctness and consistency.
+     Identifying and fixing bugs and performance issues.
+5. Release:
+     Setting up a web server and domain to host the site.
+     Transferring code and content to the server.
+     Final testing on the live server to verify that everything is working correctly.
+
+В Midas Group мы считаем, что каждый бизнес заслуживает профессионального представления в Интернете. Вот почему мы стремимся предлагать инновационные цифровые решения, адаптированные к индивидуальным потребностям и целям каждого клиента.
+
+1. Планирование и исследования:
+     Определение целей и требований проекта.
+     Определение целевой аудитории и ее потребностей.
+     Конкурентные и маркетинговые исследования.
+     Создание структуры сайта и плана навигации.
+2. Дизайн:
+     Создание визуальной концепции сайта, включая цветовую палитру, типографику и дизайн элементов.
+     Разработка вайрфреймов и макетов для планирования макета и взаимодействия сайта.
+     Создание графики, такой как логотипы, изображения и графика.
+     Обеспечение адаптивности дизайна и его адаптации к различным устройствам и размерам экрана.
+3. Развитие:
+     Реализация дизайна в коде с использованием HTML, CSS и JavaScript.
+     Разработка интерактивных функций и динамических элементов с использованием JavaScript и библиотек или фреймворков внешнего интерфейса (таких как React, Angular или Vue.js).
+     Интеграция с системой управления контентом (Страница администратора), при необходимости.
+     Оптимизация производительности сайта, скорости загрузки и SEO-оптимизация.
+4. Тестирование:
+     Тестирование функциональности и совместимости сайта на разных браузерах и устройствах.
+     Проверка дизайна и взаимодействия на корректность и последовательность.
+     Выявление и исправление ошибок и проблем с производительностью.
+5. Выпуск:
+     Настройка веб-сервера и домена для размещения сайта.
+     Перенос кода и контента на сервер.
+     Финальное тестирование на работающем сервере, чтобы убедиться, что все работает правильно.

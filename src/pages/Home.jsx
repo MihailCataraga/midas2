@@ -1,9 +1,13 @@
 import React, { useEffect, useState } from 'react'
 import Navbar from '../components/Navbar'
 import SecNavbar from '../components/SecNavbar'
-import { FaRegCheckCircle, FaRegCircle  } from "react-icons/fa";
+import { FaCss3Alt, FaHtml5, FaNodeJs, FaReact, FaRegCheckCircle, FaRegCircle, FaSass } from "react-icons/fa";
 import { FaArrowLeft } from "react-icons/fa6";
+import { TbBrandJavascript } from "react-icons/tb";
+import { SiRedux, SiExpress, SiMongodb } from "react-icons/si";
 import { Link } from 'react-router-dom';
+import Footer from '../components/Footer';
+import GoToUp from '../components/GoToGo';
 
 export default function Home() {
     const [ip, setIp] = useState('');
@@ -18,30 +22,30 @@ export default function Home() {
     //Send Form
     const sendForm = () => {
         const button = document.getElementById('submit')
-        if(form.name === '' || form.number === '' || form.email === '' || form.check === false) {
+        if (form.name === '' || form.number === '' || form.email === '' || form.check === false) {
             button.setAttribute('disabled', 'disabled');
-            if(form.name === '') {
+            if (form.name === '') {
                 const name = document.getElementById('name')
                 name.style.border = '1px solid #bf57df'
             } else {
                 const name = document.getElementById('name')
                 name.style.border = '1px solid transparent'
             }
-            if(form.number === '') {
+            if (form.number === '') {
                 const number = document.getElementById('number')
                 number.style.border = '1px solid #bf57df'
             } else {
                 const number = document.getElementById('number')
                 number.style.border = '1px solid transparent'
             }
-            if(form.email === '') {
+            if (form.email === '') {
                 const email = document.getElementById('email')
                 email.style.border = '1px solid #bf57df'
             } else {
                 const email = document.getElementById('email')
                 email.style.border = '1px solid transparent'
             }
-            if(form.check === false) {
+            if (form.check === false) {
                 const uncheck = document.getElementById('uncheck')
                 uncheck.style.color = '#bf57df'
             } else {
@@ -137,7 +141,29 @@ export default function Home() {
                     <div className='line' id='line6'></div>
                     <b className='line' id='scroll'><FaArrowLeft className='icon' />SCROLL</b>
                 </section>
-                <section className='sec-2' id='sec-2'>
+                <section className='sec-3'>
+                    <h2>Technologies used by our team</h2>
+                    <div className='carouselBox'>
+                        <ul className='carousel'>
+                            <li><FaHtml5 className='icon' id='html' /><span>HTML</span></li>
+                            <li><FaCss3Alt className='icon' id='css' /><span>CSS</span></li>
+                            <li><FaSass className='icon' id='sass' /><span>SASS</span></li>
+                            <li><TbBrandJavascript className='icon' id='js' /><span>JavaScript</span></li>
+                            <li><FaReact className='icon' id='react' /><span>React</span></li>
+                            <li><SiRedux className='icon' id='redux' /><span>Redux</span></li>
+                            <li><FaNodeJs className='icon' id='node' /><span>Node.js</span></li>
+                            <li><SiExpress className='icon' id='express' /><span>Express.js</span></li>
+                            <li><SiMongodb className='icon' id='mongo' /><span>MongoDB</span></li>
+                            <li><FaHtml5 className='icon' id='html' /><span>HTML</span></li>
+                            <li><FaCss3Alt className='icon' id='css' /><span>CSS</span></li>
+                            <li><FaSass className='icon' id='sass' /><span>SASS</span></li>
+                            <li><TbBrandJavascript className='icon' id='js' /><span>JavaScript</span></li>
+                            <li><FaReact className='icon' id='react' /><span>React</span></li>
+                            <li><SiRedux className='icon' id='redux' /><span>Redux</span></li>
+                        </ul>
+                    </div>
+                </section>
+                <section className='sec-4' id='sec-4'>
                     <div className='form'>
                         <form>
                             <div className='top'>
@@ -154,10 +180,10 @@ export default function Home() {
                                 </div>
                             </div>
                             <div className='check'>
-                                {form.check 
-                                    ? <FaRegCheckCircle className='icon' name='check' onClick={() => {setForm({ ...form, check: !form.check }), document.getElementById('submit').removeAttribute('disabled')}} /> 
-                                    : <FaRegCircle className='icon' name='check' id='uncheck' onClick={() => {setForm({ ...form, check: !form.check }), document.getElementById('submit').removeAttribute('disabled')}} 
-                                />}
+                                {form.check
+                                    ? <FaRegCheckCircle className='icon' name='check' onClick={() => { setForm({ ...form, check: !form.check }), document.getElementById('submit').removeAttribute('disabled') }} />
+                                    : <FaRegCircle className='icon' name='check' id='uncheck' onClick={() => { setForm({ ...form, check: !form.check }), document.getElementById('submit').removeAttribute('disabled') }}
+                                    />}
                                 <p>I accept the <Link to='/'>privacy policy.</Link></p>
                             </div>
                             <button id='submit' onClick={sendForm}>SEND</button>
@@ -165,6 +191,8 @@ export default function Home() {
                     </div>
                 </section>
             </main>
+            <GoToUp />
+            <Footer />
         </div>
     )
 }
