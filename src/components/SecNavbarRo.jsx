@@ -7,7 +7,7 @@ export default function SecNavbarRo(props) {
         <div className='left'>
             <p className='logo'>Midas Group</p>
             <p className='page'>{props.page}</p>
-            <HashLink to='/ro/#sec-2'>Contacte</HashLink>
+            <HashLink to='/ro/#sec-4'>Contacte</HashLink>
         </div>
         <div className='right'>
             <p>Site-ul web</p>

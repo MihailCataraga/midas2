@@ -20,4 +20,9 @@
 }
 .goToUp:hover{
     transform: scale(1.1);
+    .arrow{
+        .icon{
+            color: $gold;
+        }
+    }
 }

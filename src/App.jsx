@@ -5,6 +5,9 @@ import HomeRu from './pages/HomeRu';
 import Services from './pages/Services';
 import ServicesRo from './pages/ServicesRo';
 import ServicesRu from './pages/ServicesRu';
+import AboutUs from './pages/AboutUs';
+import AboutUsRo from './pages/AboutUsRo';
+import AboutUsRu from './pages/AboutUsRu';
 
 function App() {
 
@@ -18,6 +21,9 @@ function App() {
           <Route path='/services' element={<Services />} />
           <Route path='/ro/services' element={<ServicesRo />} />
           <Route path='/ru/services' element={<ServicesRu />} />
+          <Route path='/about' element={<AboutUs />} />
+          <Route path='/ro/about' element={<AboutUsRo />} />
+          <Route path='/ru/about' element={<AboutUsRu />} />
         </Routes>
       </BrowserRouter>
     </div>

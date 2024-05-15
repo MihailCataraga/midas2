@@ -68,9 +68,9 @@ export default function Navbar(props) {
         elem.style.color = '#fff4b4'
         
         const timeout = setTimeout(() => {
-            elem.style.color = '#ffd700'
+            elem.style.color = '#c54cc6'
             elem.addEventListener('mouseenter', function() {
-                this.style.color = '#ffd700'; // Schimbă culoarea la hover
+                this.style.color = '#c54cc6'; // Schimbă culoarea la hover
             });
             elem.addEventListener('mouseleave', function() {
                 this.style.color = '#f7f7f7'; // Restabilește culoarea la ieșirea mouse-ului
@@ -111,8 +111,8 @@ export default function Navbar(props) {
                 <FaLinkedinIn className='icon' />
                 <FaXTwitter className='icon' />
                 <div className='line'></div>
-                <FaWhatsapp className='icon' />
-                <IoIosMail className='icon' />
+                <FaWhatsapp className='icon' onClick={() => {window.location.href = "Https://wa.me/37368193004"}} />
+                <IoIosMail className='icon' onClick={() => {window.location.href = "mailto:info@midasgroup.works"}} />
             </div>
             <MdLanguage className={lang ? 'iconLang activeLang': 'iconLang'} id='langIcon' onClick={lang ? () => {closeLang(), pulse('langIcon')} : () => {setLang(true), pulse('langIcon')}} />
             {lang && <div className='langBox' id='lang' ref={langRef}>

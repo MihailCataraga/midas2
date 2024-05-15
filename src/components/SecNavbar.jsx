@@ -9,7 +9,7 @@ export default function SecNavbar(props) {
             <p className='logo'>Midas Group</p>
             {/* <img src={logo} width={'200px'} alt='logo' /> */}
             <p className='page'>{props.page}</p>
-            <HashLink to='/#sec-2'>Contacts</HashLink>
+            <HashLink to='/#sec-4'>Contacts</HashLink>
         </div>
         <div className='right'>
             <p>Website for</p>

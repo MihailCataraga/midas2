@@ -335,19 +335,19 @@
                         }
     
                         .over:nth-child(1):hover~img {
-                            transform: rotateX(-3deg) rotateY(3deg)
+                            transform: rotateX(-5deg) rotateY(5deg)
                         }
     
                         .over:nth-child(2):hover~img {
-                            transform: rotateX(-3deg) rotateY(0deg)
+                            transform: rotateX(-5deg) rotateY(0deg)
                         }
     
                         .over:nth-child(3):hover~img {
-                            transform: rotateX(-3deg) rotateY(-3deg)
+                            transform: rotateX(-5deg) rotateY(-5deg)
                         }
     
                         .over:nth-child(4):hover~img {
-                            transform: rotateX(0deg) rotateY(3deg)
+                            transform: rotateX(0deg) rotateY(5deg)
                         }
     
                         .over:nth-child(5):hover~img {
@@ -355,19 +355,19 @@
                         }
     
                         .over:nth-child(6):hover~img {
-                            transform: rotateX(0deg) rotateY(-3deg)
+                            transform: rotateX(0deg) rotateY(-5deg)
                         }
     
                         .over:nth-child(7):hover~img {
-                            transform: rotateX(3deg) rotateY(3deg)
+                            transform: rotateX(5deg) rotateY(5deg)
                         }
     
                         .over:nth-child(8):hover~img {
-                            transform: rotateX(3deg) rotateY(0deg)
+                            transform: rotateX(5deg) rotateY(0deg)
                         }
     
                         .over:nth-child(9):hover~img {
-                            transform: rotateX(3deg) rotateY(-3deg)
+                            transform: rotateX(5deg) rotateY(-5deg)
                         }
                         img {
                             transition: .5s;

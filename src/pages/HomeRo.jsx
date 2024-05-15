@@ -296,7 +296,7 @@ export default function HomeRo() {
                                     <input id='message' name='message' type='text' placeholder='Mesaj' onChange={handleChangeData} />
                                 </div>
                                 <div className='right'>
-                                    <p>+373 61234567</p>
+                                    <p>+373 68193004</p>
                                     <p>info@midasgroup.works</p>
                                 </div>
                             </div>

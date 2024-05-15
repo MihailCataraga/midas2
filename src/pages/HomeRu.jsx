@@ -293,7 +293,7 @@ export default function HomeRu() {
                                     <input id='message' name='message' type='text' placeholder='Сообщение' onChange={handleChangeData} />
                                 </div>
                                 <div className='right'>
-                                    <p>+373 61234567</p>
+                                    <p>+373 68193004</p>
                                     <p>info@midasgroup.works</p>
                                 </div>
                             </div>

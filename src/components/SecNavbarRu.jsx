@@ -7,7 +7,7 @@ export default function SecNavbarRu(props) {
         <div className='left'>
             <p className='logo'>Midas Group</p>
             <p className='page'>{props.page}</p>
-            <HashLink to='/ru/#sec-2'>Контакты</HashLink>
+            <HashLink to='/ru/#sec-4'>Контакты</HashLink>
         </div>
         <div className='right'>
             <p>Веб-сайт для</p>
