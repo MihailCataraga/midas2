@@ -8,6 +8,11 @@ import SecNavbarRu from '../components/SecNavbarRu';
 import NavbarRu from '../components/NavbarRu';
 import FooterRu from '../components/FooterRu';
 import GoToUp from '../components/GoToGo';
+import research from '../assets/img/research.webp';
+import design from '../assets/img/design.webp';
+import development from '../assets/img/development.webp';
+import testing from '../assets/img/testing.webp';
+import finish from '../assets/img/finish.webp';
 
 export default function HomeRu() {
     const [ip, setIp] = useState('');
@@ -135,6 +140,124 @@ export default function HomeRu() {
                     <div className='line' id='line5'></div>
                     <div className='line' id='line6'></div>
                     <b className='line' id='scroll'><FaArrowLeft className='icon' />SCROLL</b>
+                </section>
+                <section className='sec-2'>
+                    <p>В Midas Group мы считаем, что каждый бизнес заслуживает профессионального представления в Интернете. Вот почему мы стремимся предлагать инновационные цифровые решения, адаптированные к индивидуальным потребностям и целям каждого клиента.</p>
+                    <div className='processAll'>
+                        <div className='process'>
+                            <div className='img'>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <img src={research} alt='Research Img' />
+                            </div>
+                            <div className='info'>
+                                <h3>Планирование и исследования</h3>
+                                <ul>
+                                    <li>Определение целей и требований проекта.</li>
+                                    <li>Определение целевой аудитории и ее потребностей.</li>
+                                    <li>Конкурентные и маркетинговые исследования.</li>
+                                    <li>Создание структуры сайта и плана навигации.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className='process'>
+                            <div className='info'>
+                                <h3>Дизайн</h3>
+                                <ul>
+                                    <li>Создание визуальной концепции сайта, включая цветовую палитру, типографику и дизайн элементов.</li>
+                                    <li>Разработка вайрфреймов и макетов для планирования макета и взаимодействия сайта.</li>
+                                    <li>Создание графики, такой как логотипы, изображения и графика.</li>
+                                    <li>Обеспечение адаптивности дизайна и его адаптации к различным устройствам и размерам экрана.</li>
+                                </ul>
+                            </div>
+                            <div className='img'>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <img src={design} alt='Design Img' />
+                            </div>
+                        </div>
+                        <div className='process'>
+                            <div className='img'>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <img src={development} alt='Research Img' />
+                            </div>
+                            <div className='info'>
+                                <h3>Развитие</h3>
+                                <ul>
+                                    <li>Реализация дизайна в коде с использованием HTML, CSS и JavaScript.</li>
+                                    <li>Разработка интерактивных функций и динамических элементов с использованием JavaScript и библиотек или фреймворков внешнего интерфейса (таких как React, Angular или Vue.js).</li>
+                                    <li>Интеграция с системой управления контентом (Страница администратора), при необходимости.</li>
+                                    <li>Оптимизация производительности сайта, скорости загрузки и SEO-оптимизация.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className='process'>
+                            <div className='info'>
+                                <h3>Тестирование</h3>
+                                <ul>
+                                    <li>Тестирование функциональности и совместимости сайта на разных браузерах и устройствах.</li>
+                                    <li>Проверка дизайна и взаимодействия на корректность и последовательность.</li>
+                                    <li>Выявление и исправление ошибок и проблем с производительностью.</li>
+                                </ul>
+                            </div>
+                            <div className='img'>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <img src={testing} alt='Design Img' />
+                            </div>
+                        </div>
+                        <div className='process'>
+                            <div className='img'>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <img src={finish} alt='Research Img' />
+                            </div>
+                            <div className='info'>
+                                <h3>Выпуск</h3>
+                                <ul>
+                                    <li>Настройка веб-сервера и домена для размещения сайта.</li>
+                                    <li>Перенос кода и контента на сервер.</li>
+                                    <li>Финальное тестирование на работающем сервере, чтобы убедиться, что все работает правильно.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </section>
                 <section className='sec-3'>
                     <h2>Технологии, которые использует наша команда</h2>

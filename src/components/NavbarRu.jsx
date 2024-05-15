@@ -98,10 +98,10 @@ export default function NavbarRu(props) {
             }
             {menu && <div className='menu' id='menu' ref={menuRef}>
                 <nav>
-                    <NavLink to='/ru' onClick={scrollTop}>Домой</NavLink>
-                    <NavLink to='/ru/about' onClick={scrollTop}>О нас</NavLink>
-                    <NavLink to='/ru/services' onClick={scrollTop}>Услуги</NavLink>
-                    <NavLink to='/ru/portfolio' onClick={scrollTop}>Портфолио</NavLink>
+                    <NavLink to='/ru' onClick={scrollTop} end>Домой</NavLink>
+                    <NavLink to='/ru/about' onClick={scrollTop} end>О нас</NavLink>
+                    <NavLink to='/ru/services' onClick={scrollTop} end>Услуги</NavLink>
+                    <NavLink to='/ru/portfolio' onClick={scrollTop} end>Портфолио</NavLink>
                 </nav>
             </div>
             }

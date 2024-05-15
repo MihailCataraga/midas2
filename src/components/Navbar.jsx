@@ -98,10 +98,10 @@ export default function Navbar(props) {
             }
             {menu && <div className='menu' id='menu' ref={menuRef}>
                 <nav>
-                    <NavLink to='/' onClick={scrollTop}>Home</NavLink>
-                    <NavLink to='/about' onClick={scrollTop}>About Us</NavLink>
-                    <NavLink to='/services' onClick={scrollTop}>Services</NavLink>
-                    <NavLink to='/portfolio' onClick={scrollTop}>Portfolio</NavLink>
+                    <NavLink to='/' onClick={scrollTop} end>Home</NavLink>
+                    <NavLink to='/about' onClick={scrollTop} end>About Us</NavLink>
+                    <NavLink to='/services' onClick={scrollTop} end>Services</NavLink>
+                    <NavLink to='/portfolio' onClick={scrollTop} end>Portfolio</NavLink>
                 </nav>
             </div>
             }

@@ -8,6 +8,11 @@ import { SiRedux, SiExpress, SiMongodb } from "react-icons/si";
 import { Link } from 'react-router-dom';
 import Footer from '../components/Footer';
 import GoToUp from '../components/GoToGo';
+import research from '../assets/img/research.webp';
+import design from '../assets/img/design.webp';
+import development from '../assets/img/development.webp';
+import testing from '../assets/img/testing.webp';
+import finish from '../assets/img/finish.webp';
 
 export default function Home() {
     const [ip, setIp] = useState('');
@@ -140,6 +145,124 @@ export default function Home() {
                     <div className='line' id='line5'></div>
                     <div className='line' id='line6'></div>
                     <b className='line' id='scroll'><FaArrowLeft className='icon' />SCROLL</b>
+                </section>
+                <section className='sec-2'>
+                    <p>At Midas Group, we believe that every business deserves to be professionally represented online. That's why we're committed to offering innovative digital solutions tailored to each client's individual needs and goals.</p>
+                    <div className='processAll'>
+                        <div className='process'>
+                            <div className='img'>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <img src={research} alt='Research Img' />
+                            </div>
+                            <div className='info'>
+                                <h3>Planning and Research</h3>
+                                <ul>
+                                    <li>Defining project objectives and requirements.</li>
+                                    <li>Identifying the target audience and their needs.</li>
+                                    <li>Competitive and market research.</li>
+                                    <li>Creating a site structure and navigation plan.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className='process'>
+                            <div className='info'>
+                                <h3>Design</h3>
+                                <ul>
+                                    <li>Creating a visual concept for the site, including color palette, typography and element design.</li>
+                                    <li>Development of wireframes and mockups to plan layout and site interactions.</li>
+                                    <li>Creating graphics such as logos, images and graphics.</li>
+                                    <li>Ensuring the design is responsive and adaptable to different devices and screen sizes.</li>
+                                </ul>
+                            </div>
+                            <div className='img'>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <img src={design} alt='Design Img' />
+                            </div>
+                        </div>
+                        <div className='process'>
+                            <div className='img'>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <img src={development} alt='Research Img' />
+                            </div>
+                            <div className='info'>
+                                <h3>Development</h3>
+                                <ul>
+                                    <li>Implementing design in code using HTML, CSS and JavaScript.</li>
+                                    <li>Development of interactive functionalities and dynamic elements using JavaScript and frontend libraries or frameworks (such as React, Angular or Vue.js).</li>
+                                    <li>Integration with a content management system (Admin Page), if necessary.</li>
+                                    <li>Optimizing site performance, loading speed and SEO optimization.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className='process'>
+                            <div className='info'>
+                                <h3>Testing</h3>
+                                <ul>
+                                    <li>Testing the functionality and compatibility of the site on different browsers and devices.</li>
+                                    <li>Checking design and interactions for correctness and consistency.</li>
+                                    <li>Identifying and fixing bugs and performance issues.</li>
+                                </ul>
+                            </div>
+                            <div className='img'>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <img src={testing} alt='Design Img' />
+                            </div>
+                        </div>
+                        <div className='process'>
+                            <div className='img'>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <img src={finish} alt='Research Img' />
+                            </div>
+                            <div className='info'>
+                                <h3>Release</h3>
+                                <ul>
+                                    <li>Setting up a web server and domain to host the site.</li>
+                                    <li>Transferring code and content to the server.</li>
+                                    <li>Final testing on the live server to verify that everything is working correctly.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </section>
                 <section className='sec-3'>
                     <h2>Technologies used by our team</h2>

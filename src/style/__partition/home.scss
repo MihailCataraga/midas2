@@ -255,37 +255,138 @@
                 }
             }
         }
-        .sec-2{
+
+        .sec-2 {
             padding: 0 5vw;
-            p{
+
+            p {
                 font-size: 24px;
                 text-align: center;
                 margin: 100px 0 50px 0;
             }
-            .processAll{
+
+            .processAll {
                 display: flex;
                 flex-direction: column;
                 padding: 0 50px;
-                
-                .process{
+
+                .process {
                     display: flex;
                     align-items: center;
                     justify-content: space-around;
                     gap: 100px;
                     margin: 50px 0;
-                    img{
+
+                    .img {
                         width: 40%;
-                        border-radius: 25px;
-                        box-shadow: 0px 0px 15px 5px rgba(107, 107, 107, 0.75);
+                        position: relative;
+                        transition: all 0.5s ease-out;
+                        perspective: 1000px;
+                        .over {
+                            width: 33.333%;
+                            height: 33.333%;
+                            position: absolute;
+                            z-index: 1;
+                        }
+    
+                        .over:nth-child(1) {
+                            left: 0;
+                            top: 0
+                        }
+    
+                        .over:nth-child(2) {
+                            left: 33.333%;
+                            top: 0
+                        }
+    
+                        .over:nth-child(3) {
+                            left: 66.666%;
+                            top: 0
+                        }
+    
+                        .over:nth-child(4) {
+                            left: 0;
+                            top: 33.333%
+                        }
+    
+                        .over:nth-child(5) {
+                            left: 33.333%;
+                            top: 33.333%
+                        }
+    
+                        .over:nth-child(6) {
+                            left: 66.666%;
+                            top: 33.333%
+                        }
+    
+                        .over:nth-child(7) {
+                            left: 0;
+                            top: 66.666%
+                        }
+    
+                        .over:nth-child(8) {
+                            left: 33.333%;
+                            top: 66.666%
+                        }
+    
+                        .over:nth-child(9) {
+                            left: 66.666%;
+                            top: 66.666%
+                        }
+    
+                        .over:nth-child(1):hover~img {
+                            transform: rotateX(-3deg) rotateY(3deg)
+                        }
+    
+                        .over:nth-child(2):hover~img {
+                            transform: rotateX(-3deg) rotateY(0deg)
+                        }
+    
+                        .over:nth-child(3):hover~img {
+                            transform: rotateX(-3deg) rotateY(-3deg)
+                        }
+    
+                        .over:nth-child(4):hover~img {
+                            transform: rotateX(0deg) rotateY(3deg)
+                        }
+    
+                        .over:nth-child(5):hover~img {
+                            transform: rotateX(0deg) rotateY(0deg)
+                        }
+    
+                        .over:nth-child(6):hover~img {
+                            transform: rotateX(0deg) rotateY(-3deg)
+                        }
+    
+                        .over:nth-child(7):hover~img {
+                            transform: rotateX(3deg) rotateY(3deg)
+                        }
+    
+                        .over:nth-child(8):hover~img {
+                            transform: rotateX(3deg) rotateY(0deg)
+                        }
+    
+                        .over:nth-child(9):hover~img {
+                            transform: rotateX(3deg) rotateY(-3deg)
+                        }
+                        img {
+                            transition: .5s;
+                            width: 100%;
+                            border-radius: 25px;
+                            box-shadow: 0px 0px 15px 5px rgba(107, 107, 107, 0.75);
+                        }
                     }
-                    .info{
+
+                    .info {
                         flex: 1;
                         width: 40%;
-                        h3{
+
+                        h3 {
                             font-size: 26px;
                         }
-                        ul{
-                            li{
+
+                        ul {
+                            li {
                                 width: 100%;
                                 font-size: 20px;
                                 margin: 10px 0 10px 20px;
@@ -295,6 +396,7 @@
                 }
             }
         }
+
         .sec-3 {
             background-color: transparent;
             height: 152px;
@@ -302,11 +404,13 @@
             flex-direction: column;
             justify-content: center;
             margin: 100px 0 100px 0;
-            h2{
+
+            h2 {
                 text-align: center;
                 font-size: 36px;
                 margin-bottom: 40px;
             }
+
             .carouselBox {
                 height: 150px;
                 position: relative;
@@ -323,10 +427,17 @@
                     overflow-x: hidden;
                     width: calc(300px * 15);
                     animation: scrolling 30s linear infinite;
+
                     @keyframes scrolling {
-                        0% { transform: translateX(0); }
-                        100% { transform: translateX(calc(-300px * 9)); }
+                        0% {
+                            transform: translateX(0);
+                        }
+
+                        100% {
+                            transform: translateX(calc(-300px * 9));
+                        }
                     }
+
                     li {
                         width: 300px;
                         display: flex;
@@ -383,6 +494,7 @@
                 }
             }
         }
+
         .sec-4 {
             display: flex;
             align-items: center;

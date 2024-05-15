@@ -148,7 +148,18 @@ export default function HomeRo() {
                     <p>La Midas Group, credem că fiecare afacere merită să fie reprezentată cu profesionalism online. De aceea, ne-am angajat să oferim soluții digitale inovatoare, adaptate nevoilor și obiectivelor individuale ale fiecărui client. </p>
                     <div className='processAll'>
                         <div className='process'>
-                            <img src={research} alt='Research Img' />
+                            <div className='img'>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <img src={research} alt='Research Img' />
+                            </div>
                             <div className='info'>
                                 <h3>Planificare și cercetare</h3>
                                 <ul>
@@ -169,10 +180,32 @@ export default function HomeRo() {
                                     <li>Asigurarea că design-ul este responsiv și adaptabil la diferite dispozitive și dimensiuni de ecran.</li>
                                 </ul>
                             </div>
-                            <img src={design} alt='Design Img' />
+                            <div className='img'>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <img src={design} alt='Design Img' />
+                            </div>
                         </div>
                         <div className='process'>
-                            <img src={development} alt='Research Img' />
+                            <div className='img'>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <img src={development} alt='Research Img' />
+                            </div>
                             <div className='info'>
                                 <h3>Dezvoltare</h3>
                                 <ul>
@@ -192,10 +225,32 @@ export default function HomeRo() {
                                     <li>Identificarea și remedierea erorilor și problemelor de performanță.</li>
                                 </ul>
                             </div>
-                            <img src={design} alt='Design Img' />
+                            <div className='img'>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <img src={testing} alt='Design Img' />
+                            </div>
                         </div>
                         <div className='process'>
-                            <img src={development} alt='Research Img' />
+                            <div className='img'>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <span className='over'></span>
+                                <img src={finish} alt='Research Img' />
+                            </div>
                             <div className='info'>
                                 <h3>Lansare</h3>
                                 <ul>

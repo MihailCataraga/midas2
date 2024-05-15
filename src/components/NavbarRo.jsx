@@ -98,10 +98,10 @@ export default function NavbarRo(props) {
             }
             {menu && <div className='menu' id='menu' ref={menuRef}>
                 <nav>
-                    <NavLink to='/ro' onClick={scrollTop}>Acasă</NavLink>
-                    <NavLink to='/ro/about' onClick={scrollTop}>Despre noi</NavLink>
-                    <NavLink to='/ro/services' onClick={scrollTop}>Servicii</NavLink>
-                    <NavLink to='/ro/portfolio' onClick={scrollTop}>Portofoliu</NavLink>
+                    <NavLink to='/ro' onClick={scrollTop} end>Acasă</NavLink>
+                    <NavLink to='/ro/about' onClick={scrollTop} end>Despre noi</NavLink>
+                    <NavLink to='/ro/services' onClick={scrollTop} end>Servicii</NavLink>
+                    <NavLink to='/ro/portfolio' onClick={scrollTop} end>Portofoliu</NavLink>
                 </nav>
             </div>
             }
