@@ -202,7 +202,7 @@ export default function ServicesRo() {
             <main>
                 <SecNavbarRo page='Services' />
                 <section className='sec-1'>
-                    <h1 id='h1'>Ce tipuri de site-uri web ne dăm seama?</h1>
+                    <h1 id='h1'>Ce tipuri de website-uri realizăm?</h1>
                     <div className='servicesType'>
                         <div className='serviceCard'>
                             {card.map((i) => {

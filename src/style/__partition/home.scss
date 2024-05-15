@@ -260,29 +260,33 @@
             p{
                 font-size: 24px;
                 text-align: center;
-                margin-top: 50px;
+                margin: 100px 0 50px 0;
             }
             .processAll{
                 display: flex;
                 flex-direction: column;
+                padding: 0 50px;
                 
                 .process{
                     display: flex;
                     align-items: center;
-                    justify-content: center;
+                    justify-content: space-around;
                     gap: 100px;
                     margin: 50px 0;
                     img{
+                        width: 40%;
                         border-radius: 25px;
                         box-shadow: 0px 0px 15px 5px rgba(107, 107, 107, 0.75);
                     }
                     .info{
+                        flex: 1;
+                        width: 40%;
                         h3{
                             font-size: 26px;
                         }
                         ul{
                             li{
-                                width: 700px;
+                                width: 100%;
                                 font-size: 20px;
                                 margin: 10px 0 10px 20px;
                             }
@@ -291,29 +295,27 @@
                 }
             }
         }
-
-
         .sec-3 {
             background-color: transparent;
-            height: 200px;
+            height: 152px;
             display: flex;
             flex-direction: column;
             justify-content: center;
-            margin: 75px 0 25px 0;
+            margin: 100px 0 100px 0;
             h2{
                 text-align: center;
                 font-size: 36px;
-                margin-bottom: 25px;
+                margin-bottom: 40px;
             }
             .carouselBox {
-                height: 198px;
+                height: 150px;
                 position: relative;
                 border-top: 2px solid $black;
                 border-bottom: 2px solid $black;
 
                 .carousel {
                     display: flex;
-                    height: 198px;
+                    height: 150px;
                     background-color: transparent;
                     justify-content: space-between;
                     align-items: center;
@@ -379,10 +381,6 @@
                         color: #01EC64;
                     }
                 }
-
-                // .carousel:hover{
-                //     animation-play-state: paused;
-                // }
             }
         }
         .sec-4 {
