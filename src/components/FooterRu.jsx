@@ -17,11 +17,11 @@ export default function FooterRu(props) {
                     <Link to={props.path + '/about'} onClick={toUp}>О нас</Link>
                     <Link to={props.path + '/services'} onClick={toUp}>Услуги</Link>
                     <Link to={props.path + '/portfolio'} onClick={toUp}>Портфолио</Link>
-                    <Link to={props.path + '/privacypolicy'} onClick={toUp}>Политика конфиденциальности</Link>
+                    <Link to={props.path + '/privacyPolicy'} onClick={toUp}>Политика конфиденциальности</Link>
                     <Link to={props.path + '/cookies'} onClick={toUp}>Cookies</Link>
                 </div>
                 <div className='contacts'>
-                    <p>+ 373 61234567</p>
+                    <p>+ 373 68193004</p>
                     <p>info@midasgroup.works</p>
                 </div>
             </div>

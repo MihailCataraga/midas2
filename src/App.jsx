@@ -8,6 +8,12 @@ import ServicesRu from './pages/ServicesRu';
 import AboutUs from './pages/AboutUs';
 import AboutUsRo from './pages/AboutUsRo';
 import AboutUsRu from './pages/AboutUsRu';
+import Cookies from './pages/Cookies';
+import CookiesRo from './pages/CookiesRo';
+import CookiesRu from './pages/CookiesRu';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import PrivacyPolicyRo from './pages/PrivacyPolicyRo';
+import PrivacyPolicyRu from './pages/PrivacyPolicyRu';
 
 function App() {
 
@@ -24,6 +30,12 @@ function App() {
           <Route path='/about' element={<AboutUs />} />
           <Route path='/ro/about' element={<AboutUsRo />} />
           <Route path='/ru/about' element={<AboutUsRu />} />
+          <Route path='/cookies' element={<Cookies />} />
+          <Route path='/ro/cookies' element={<CookiesRo />} />
+          <Route path='/ru/cookies' element={<CookiesRu />} />
+          <Route path='/privacyPolicy' element={<PrivacyPolicy />} />
+          <Route path='/ro/privacyPolicy' element={<PrivacyPolicyRo />} />
+          <Route path='/ru/privacyPolicy' element={<PrivacyPolicyRu />} />
         </Routes>
       </BrowserRouter>
     </div>

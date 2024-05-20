@@ -17,11 +17,11 @@ export default function FooterRo(props) {
                     <Link to={props.path + '/about'} onClick={toUp}>Despre noi</Link>
                     <Link to={props.path + '/services'} onClick={toUp}>Servicii</Link>
                     <Link to={props.path + '/portfolio'} onClick={toUp}>Portofoliu</Link>
-                    <Link to={props.path + '/privacypolicy'} onClick={toUp}>Politica de confidențialitate</Link>
+                    <Link to={props.path + '/privacyPolicy'} onClick={toUp}>Politica de confidențialitate</Link>
                     <Link to={props.path + '/cookies'} onClick={toUp}>Cookies</Link>
                 </div>
                 <div className='contacts'>
-                    <p>+ 373 61234567</p>
+                    <p>+ 373 68193004</p>
                     <p>info@midasgroup.works</p>
                 </div>
             </div>

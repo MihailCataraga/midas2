@@ -21,7 +21,7 @@ export default function Footer() {
                     <Link to={'/cookies'} onClick={toUp}>Cookies</Link>
                 </div>
                 <div className='contacts'>
-                    <p>+ 373 61234567</p>
+                    <p>+ 373 68193004</p>
                     <p>info@midasgroup.works</p>
                 </div>
             </div>

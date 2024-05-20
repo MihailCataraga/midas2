@@ -2,27 +2,231 @@
 2. endpointul pentru trimiterea formului.
 3. Mesaj 
 
-Despre noi
-Noi suntem o echipă pasionată și dedicată, specializată în crearea de site-uri web care captivază, impresionează și aduc valoare afacerii dvs.
-La Midas Group, credem că fiecare afacere merită să fie reprezentată cu profesionalism online. De aceea, ne-am angajat să oferim soluții digitale inovatoare, adaptate nevoilor și obiectivelor individuale ale fiecărui client. 
-Ce ne diferențiază? Nu suntem doar o agenție digitală obișnuită. Ne mândrim cu abordarea noastră personalizată, în care ascultăm cu atenție cerințele și viziunea fiecărui client. De la site-uri web elegante și funcționale pentru afaceri mici și mijlocii, până la platforme web complexe pentru corporații, punem pasiune în fiecare proiect pentru a livra rezultate de excepție.
-Suntem dedicați excelenței în tot ceea ce facem. Fie că este vorba despre designul estetic al site-ului sau despre performanța tehnică, ne asigurăm că fiecare detaliu este pus în valoare. Ne angajăm să vă oferim servicii de înaltă calitate, în termenii și bugetul stabilit, pentru a vă ajuta să atingeți și să depășiți obiectivele dumneavoastră online.
-Încrederea clienților noștri este cea mai mare recompensă a noastră. De aceea, lucrăm din greu pentru a construi relații de lungă durată, bazate pe transparență, comunicare și rezultate tangibile. Suntem aici pentru dumneavoastră, fie că aveți nevoie de un site nou, de optimizarea celui existent sau de orice altă soluție digitală.
-Cu Midas Group, viitorul digital al afacerii dumneavoastră este luminos și plin de oportunități!
+Politica de Cookieuri
 
-About Us
-We are a passionate and dedicated team specializing in creating websites that captivate, impress and bring value to your business.
-At Midas Group, we believe that every business deserves to be professionally represented online. That's why we're committed to offering innovative digital solutions tailored to each client's individual needs and goals.
-What sets us apart? We are not just an ordinary digital agency. We pride ourselves on our personalized approach, where we listen carefully to each client's requirements and vision. From elegant and functional websites for small and medium businesses to complex web platforms for corporations, we put passion into every project to deliver exceptional results.
-We are dedicated to excellence in everything we do. Be it the aesthetic design of the site or the technical performance, we make sure that every detail is valued. We are committed to providing you with high quality service, on time and on budget, to help you achieve and exceed your online goals.
-The trust of our customers is our greatest reward. That's why we work hard to build long-lasting relationships based on transparency, communication and tangible results. We are here for you, whether you need a new website, optimization of the existing one or any other digital solution.
-With Midas Group, the digital future of your business is bright and full of opportunities!
+Această Politică de Cookieuri explică ce sunt cookieurile și cum le folosim pe site-ul nostru web. Utilizând acest site, sunteți de acord cu utilizarea cookieurilor în conformitate cu această politică.
+
+Ce sunt cookieurile?
+
+Cookieurile sunt fișiere mici de text stocate pe dispozitivul dumneavoastră (computer, tabletă, smartphone) atunci când vizitați un site web. Acestea sunt folosite pe scară largă pentru a asigura funcționarea eficientă a site-urilor web sau pentru a îmbunătăți experiența utilizatorilor, precum și pentru a furniza anumite informații proprietarilor site-ului.
+
+Tipurile de cookieuri pe care le utilizăm
+
+Pe acest site web, folosim cookieuri pentru a reține limba preferată de utilizatori. Aceste cookieuri sunt necesare pentru a asigura funcționalitatea de bază a site-ului.
+
+Cookieuri necesare:
+Nume cookie: language
+Scop: Acest cookie reține limba preferată a utilizatorului pentru a oferi o experiență personalizată la fiecare vizită pe site.
+Durată: 30 zile
+Scopul utilizării cookieurilor
+
+Folosim acest cookie pentru a stoca preferințele de limbă ale utilizatorilor. Acest lucru ne permite să vă oferim conținutul site-ului în limba aleasă de dumneavoastră, astfel încât să nu fie nevoie să selectați limba de fiecare dată când vizitați site-ul nostru.
+
+Actualizări ale politicii de cookieuri
+
+Putem actualiza această Politică de Cookieuri din când în când pentru a reflecta schimbările în practicile noastre sau pentru alte motive operaționale, legale sau de reglementare. Vă vom notifica despre orice modificări prin postarea noii Politici de Cookieuri pe această pagină.
+
+Această politică a fost actualizată ultima dată la 20/05/2024.
+
+Contact
+
+Dacă aveți întrebări sau preocupări cu privire la utilizarea cookieurilor, vă rugăm să ne contactați la:
+
+Email: info@midasgroup.works
+Telefon: + 373 68193004
 
 
-О нас
-Мы — страстная и преданная своему делу команда, специализирующаяся на создании веб-сайтов, которые очаровывают, впечатляют и приносят пользу вашему бизнесу.
-В Midas Group мы считаем, что каждый бизнес заслуживает профессионального представления в Интернете. Вот почему мы стремимся предлагать инновационные цифровые решения, адаптированные к индивидуальным потребностям и целям каждого клиента.
-Что отличает нас? Мы не просто обычное digital-агентство. Мы гордимся нашим персонализированным подходом, при котором мы внимательно прислушиваемся к требованиям и видению каждого клиента. От элегантных и функциональных веб-сайтов для малого и среднего бизнеса до сложных веб-платформ для корпораций — мы вкладываем энтузиазм в каждый проект, чтобы добиться исключительных результатов.
-Мы стремимся к совершенству во всем, что мы делаем. Будь то эстетический дизайн сайта или технические характеристики, мы заботимся о том, чтобы каждая деталь была оценена по достоинству. Мы стремимся предоставить вам высококачественные услуги вовремя и в рамках бюджета, чтобы помочь вам достичь и превзойти ваши онлайн-цели.
-Доверие наших клиентов – наша самая большая награда. Вот почему мы прилагаем все усилия, чтобы построить долгосрочные отношения, основанные на прозрачности, общении и ощутимых результатах. Мы здесь для вас, нужен ли вам новый веб-сайт, оптимизация существующего или любое другое цифровое решение.
-С Midas Group цифровое будущее вашего бизнеса будет ярким и полным возможностей!
+
+
+Politica de Confidențialitate
+
+Această Politică de Confidențialitate explică modul în care colectăm, utilizăm și protejăm informațiile personale ale utilizatorilor care ne vizitează site-ul și completează formularul de contact pentru a primi mai multe informații. Prin utilizarea site-ului nostru și furnizarea informațiilor personale, sunteți de acord cu practicile descrise în această politică.
+
+Informații colectate
+
+Colectăm următoarele informații personale de la utilizatori prin intermediul formularului de contact de pe site-ul nostru:
+
+Nume
+Număr de telefon
+Adresă de email
+Mesajul trimis de utilizator
+
+Mai colectăm IP dumneavoastră pentru a vă oferi conținutul site-ului în limba reprezentativă locației dumneavoastră.
+IP nu este folosit cu alte scopuri și nu este divulgat cu excepția punctelor din "Divulgarea informațiilor".
+
+Scopul colectării informațiilor
+
+Utilizăm informațiile colectate pentru următoarele scopuri:
+
+Pentru a vă contacta și a răspunde solicitărilor dumneavoastră.
+Pentru a vă oferi informații suplimentare despre produsele și serviciile noastre.
+Pentru a îmbunătăți serviciile noastre și experiența utilizatorilor.
+
+Protecția informațiilor
+
+Ne angajăm să protejăm informațiile personale ale utilizatorilor noștri. Implementăm măsuri de securitate tehnice și organizatorice adecvate pentru a preveni accesul neautorizat, divulgarea, modificarea sau distrugerea informațiilor personale.
+
+Divulgarea informațiilor
+
+Nu vom vinde, închiria sau divulga informațiile personale ale utilizatorilor către terți, cu excepția cazului în care acest lucru este necesar pentru a ne conforma obligațiilor legale sau pentru a proteja drepturile, proprietatea sau siguranța noastră și a altor utilizatori.
+
+În anumite circumstanțe, vom partaja datele personale cu terțe părți:
+• Autorități competente – în cazul unor cereri întemeiate pe prevederi legale, furnizam datele dvs. către autoritățile competente, atunci când aceasta este strict necesară pentru detectarea unor fraude, fapte penale și, în general, atunci când prevederile legale ne impun conformarea unei astfel de cerințe.
+• Atunci când ne solicitați expres acest lucru sau ne autorizați în mod expres dezvăluirea datelor dumneavoastră.
+• În cazul unor situații urgente sau cazuri de forță majoră.
+• În cazul în care dezvăluirea este necesară pentru a soluționa litigii, pentru a fi constatat sau exercitat un drept în instanț
+
+Ne puteți cere să vă ștergem datele cu caracter personal, dar numai în cazul în care acestea nu mai sunt necesare pentru scopurile pentru care au fost colectate.
+Este posibil să păstram datele dvs. personale în cazul constatării, exercitării sau apărării unui drept în instanță.
+În cazul în care păstrarea datelor dvs. personale este necesară în scopuri specificate de lege, putem păstra în continuare aceste date.
+
+Drepturile utilizatorilor
+
+Utilizatorii au următoarele drepturi în legătură cu informațiile lor personale:
+
+Dreptul de acces: Puteți solicita accesul la informațiile personale pe care le deținem despre dumneavoastră.
+Dreptul de ștergere: Puteți solicita ștergerea informațiilor personale, cu excepția cazurilor în care avem obligația legală de a le păstra.
+Pentru a exercita aceste drepturi, vă rugăm să ne contactați folosind detaliile de contact de mai jos.
+
+Contact
+
+Dacă aveți întrebări sau preocupări cu privire la această Politică de Confidențialitate sau la practicile noastre privind informațiile personale, vă rugăm să ne contactați:
+
+Email: Email: info@midasgroup.works
+Telefon: Telefon: + 373 68193004
+
+Actualizări ale politicii de confidențialitate
+
+Putem actualiza această Politică de Confidențialitate din când în când pentru a reflecta schimbările în practicile noastre sau pentru alte motive operaționale, legale sau de reglementare. Vă vom notifica despre orice modificări prin postarea noii Politici de Confidențialitate pe această pagină. Vă încurajăm să revizuiți periodic această politică pentru a fi informat despre modul în care protejăm informațiile dumneavoastră personale.
+
+Această politică a fost actualizată ultima dată la 20/05/2024.
+
+
+
+Privacy policy
+
+This Privacy Policy explains how we collect, use and protect the personal information of users who visit our site and fill out the contact form to receive more information. By using our site and providing your personal information, you consent to the practices described in this policy.
+
+Information collected
+
+We collect the following personal information from users via the contact form on our website:
+
+Name
+Phone number
+Email address
+The message sent by the user
+
+We also collect your IP to provide you with site content in the language representative of your location.
+The IP is not used for other purposes and is not disclosed except for the points in "Disclosure of Information".
+
+Purpose of information collection
+
+We use the information collected for the following purposes:
+
+To contact you and respond to your requests.
+To provide you with additional information about our products and services.
+To improve our services and user experience.
+
+Information protection
+
+We are committed to protecting the personal information of our users. We implement appropriate technical and organizational security measures to prevent unauthorized access, disclosure, alteration or destruction of personal information.
+
+Disclosure of Information
+
+We will not sell, rent, or disclose users' personal information to third parties, except as necessary to comply with our legal obligations or to protect our and other users' rights, property, or safety.
+
+In certain circumstances, we will share personal data with third parties:
+• Competent authorities – in case of requests based on legal provisions, we provide your data to the competent authorities, when this is strictly necessary for the detection of fraud, criminal acts and, in general, when the legal provisions require us to comply with such a requirement .
+• When you expressly ask us to do so or expressly authorize us to disclose your data.
+• In case of urgent situations or cases of force majeure.
+• If the disclosure is necessary to resolve disputes, to ascertain or exercise a right in court
+
+You can ask us to delete your personal data, but only if it is no longer necessary for the purposes for which it was collected.
+We may retain your personal data in the event of establishing, exercising or defending a legal right.
+If the retention of your personal data is required for purposes specified by law, we may continue to retain this data.
+
+User rights
+
+Users have the following rights in relation to their personal information:
+
+Right of access: You can request access to the personal information we hold about you.
+Right to erasure: You can request the erasure of your personal information, except where we have a legal obligation to keep it.
+To exercise these rights, please contact us using the contact details below.
+
+Contact
+
+If you have any questions or concerns about this Privacy Policy or our personal information practices, please contact us:
+
+Email: Email: info@midasgroup.works
+Phone: Phone: + 373 68193004
+
+Privacy Policy Updates
+
+We may update this Privacy Policy from time to time to reflect changes in our practices or for other operational, legal or regulatory reasons. We will notify you of any changes by posting the new Privacy Policy on this page. We encourage you to periodically review this policy to be informed of how we protect your personal information.
+
+This policy was last updated on 05/20/2024.
+
+
+
+Политика конфиденциальности
+
+В настоящей Политике конфиденциальности объясняется, как мы собираем, используем и защищаем личную информацию пользователей, которые посещают наш сайт и заполняют контактную форму для получения дополнительной информации. Используя наш сайт и предоставляя свою личную информацию, вы соглашаетесь на действия, описанные в этой политике.
+
+Собранная информация
+
+Мы собираем следующую личную информацию от пользователей через контактную форму на нашем сайте:
+
+Имя
+Номер телефона
+Адрес электронной почты
+Сообщение, отправленное пользователем
+
+Мы также собираем ваш IP-адрес, чтобы предоставить вам контент сайта на языке вашего местоположения.
+ИП не используется для иных целей и не разглашается, за исключением пунктов «Раскрытие информации».
+
+Цель сбора информации
+
+Мы используем собранную информацию для следующих целей:
+
+Чтобы связаться с вами и ответить на ваши запросы.
+Чтобы предоставить вам дополнительную информацию о наших продуктах и ​​услугах.
+Для улучшения наших услуг и пользовательского опыта.
+
+Защита информации
+
+Мы стремимся защищать личную информацию наших пользователей. Мы реализуем соответствующие технические и организационные меры безопасности для предотвращения несанкционированного доступа, раскрытия, изменения или уничтожения личной информации.
+
+Раскрытие информации
+
+Мы не будем продавать, сдавать в аренду или раскрывать личную информацию пользователей третьим лицам, за исключением случаев, когда это необходимо для соблюдения наших юридических обязательств или для защиты прав, собственности или безопасности наших и других пользователей.
+
+В определенных обстоятельствах мы передаем персональные данные третьим лицам:
+• Компетентные органы – в случае запросов, основанных на положениях законодательства, мы предоставляем ваши данные компетентным органам, когда это строго необходимо для выявления мошенничества, преступных действий и, в целом, когда положения законодательства требуют от нас соблюдения таких требований. требование.
+• Когда вы прямо просите нас об этом или прямо разрешаете нам раскрыть ваши данные.
+• В случае неотложных ситуаций или форс-мажорных обстоятельств.
+• Если раскрытие информации необходимо для разрешения споров, установления или реализации права в суде
+
+Вы можете попросить нас удалить ваши персональные данные, но только если они больше не нужны для целей, для которых они были собраны.
+Мы можем сохранить ваши персональные данные в случае установления, осуществления или защиты законного права.
+Если сохранение ваших личных данных требуется для целей, предусмотренных законом, мы можем продолжать хранить эти данные.
+
+Права пользователя
+
+Пользователи имеют следующие права в отношении своей личной информации:
+
+Право доступа: вы можете запросить доступ к личной информации, которую мы храним о вас.
+Право на удаление: вы можете запросить удаление вашей личной информации, за исключением случаев, когда у нас есть юридическое обязательство хранить ее.
+Чтобы воспользоваться этими правами, свяжитесь с нами, используя контактную информацию ниже.
+
+Контакт
+
+Если у вас есть какие-либо вопросы или сомнения по поводу настоящей Политики конфиденциальности или нашей практики обработки персональных данных, свяжитесь с нами:
+
+Электронная почта: info@midasgroup.works
+Телефон: Телефон: + 373 68193004
+
+Обновления политики конфиденциальности
+
+Мы можем время от времени обновлять настоящую Политику конфиденциальности, чтобы отражать изменения в нашей практике или по другим операционным, юридическим или нормативным причинам. Мы сообщим вам о любых изменениях, разместив новую Политику конфиденциальности на этой странице. Мы рекомендуем вам периодически просматривать эту политику, чтобы быть в курсе того, как мы защищаем вашу личную информацию.
+
+Данная политика последний раз обновлялась 20 мая 2024 г.

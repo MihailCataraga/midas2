@@ -116,9 +116,9 @@ export default function Navbar(props) {
             </div>
             <MdLanguage className={lang ? 'iconLang activeLang': 'iconLang'} id='langIcon' onClick={lang ? () => {closeLang(), pulse('langIcon')} : () => {setLang(true), pulse('langIcon')}} />
             {lang && <div className='langBox' id='lang' ref={langRef}>
-                <Link to={props.path} onClick={() => {document.cookie = "language" + '=;expires=Thu, 01 Jan 1970 00:00:01 GMT;', document.cookie = "language=en;path=/", scrollTop()}}>EN</Link>
-                <Link to={'/ro' + props.path} onClick={() => {document.cookie = "language" + '=;expires=Thu, 01 Jan 1970 00:00:01 GMT;', document.cookie = "language=ro;path=/", scrollTop()}}>RO</Link>
-                <Link to={'/ru' + props.path} onClick={() => {document.cookie = "language" + '=;expires=Thu, 01 Jan 1970 00:00:01 GMT;', document.cookie = "language=ru;path=/", scrollTop()}}>RU</Link>
+                <Link to={props.path} onClick={() => {document.cookie = "language" + '=;expires=Thu, 01 Jan 1970 00:00:01 GMT;', document.cookie = "language=en;path=/; max-age=2592000", scrollTop()}}>EN</Link>
+                <Link to={'/ro' + props.path} onClick={() => {document.cookie = "language" + '=;expires=Thu, 01 Jan 1970 00:00:01 GMT;', document.cookie = "language=ro;path=/; max-age=2592000", scrollTop()}}>RO</Link>
+                <Link to={'/ru' + props.path} onClick={() => {document.cookie = "language" + '=;expires=Thu, 01 Jan 1970 00:00:01 GMT;', document.cookie = "language=ru;path=/; max-age=2592000", scrollTop()}}>RU</Link>
             </div>
             }
         </div>
