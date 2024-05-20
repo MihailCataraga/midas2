@@ -14,6 +14,7 @@ import CookiesRu from './pages/CookiesRu';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import PrivacyPolicyRo from './pages/PrivacyPolicyRo';
 import PrivacyPolicyRu from './pages/PrivacyPolicyRu';
+import Portfolio from './pages/Portfolio';
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
           <Route path='/about' element={<AboutUs />} />
           <Route path='/ro/about' element={<AboutUsRo />} />
           <Route path='/ru/about' element={<AboutUsRu />} />
+          <Route path='/portfolio' element={<Portfolio />} />
           <Route path='/cookies' element={<Cookies />} />
           <Route path='/ro/cookies' element={<CookiesRo />} />
           <Route path='/ru/cookies' element={<CookiesRu />} />

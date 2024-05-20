@@ -19,7 +19,7 @@ export default function AboutUsRu() {
                 <p className='infoAboutUs'>С Midas Group цифровое будущее вашего бизнеса будет ярким и полным возможностей!</p>
             </section>
         </main>
-        <FooterRu />
+        <FooterRu path='/ru' />
     </div>
   )
 }

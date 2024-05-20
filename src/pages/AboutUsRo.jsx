@@ -19,7 +19,7 @@ export default function AboutUsRo() {
                 <p className='infoAboutUs'>Cu Midas Group, viitorul digital al afacerii dumneavoastră este luminos și plin de oportunități!</p>
             </section>
         </main>
-        <FooterRo />
+        <FooterRo path='/ro' />
     </div>
   )
 }

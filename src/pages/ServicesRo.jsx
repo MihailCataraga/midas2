@@ -5,7 +5,7 @@ import SecNavbarRo from '../components/SecNavbarRo'
 import site from '../data/siteTypeRo'
 import { GoDotFill } from "react-icons/go";
 import GoToUp from '../components/GoToGo'
-import Footer from '../components/Footer'
+import FooterRo from '../components/FooterRo'
 
 export default function ServicesRo() {
     const dot1 = () => {
@@ -60,7 +60,7 @@ export default function ServicesRo() {
             const elem3 = document.getElementById('dot3')
             elem3.style.background = '#616161'
             const elem2 = document.getElementById('dot2')
-            elem2.style.border = '5px solid #ffd700'
+            elem2.style.border = '5px solid #c54cc6'
             elem2.style.background = '#383838'
             const elem1 = document.getElementById('dot1')
             elem1.style.border = '5px solid #f7f7f7'
@@ -70,7 +70,7 @@ export default function ServicesRo() {
             elem2.style.border = '5px solid #f7f7f7'
             elem2.style.background = '#616161'
             const elem1 = document.getElementById('dot1')
-            elem1.style.border = '5px solid #ffd700'
+            elem1.style.border = '5px solid #c54cc6'
             elem1.style.background = '#383838'
             const elem7 = document.getElementById('dot7')
             elem7.style.background = '#b8b8b8'
@@ -95,7 +95,7 @@ export default function ServicesRo() {
             const elem1 = document.getElementById('dot1')
             elem1.style.background = '#757575'
             const elem3 = document.getElementById('dot3')
-            elem3.style.border = '5px solid #ffd700'
+            elem3.style.border = '5px solid #c54cc6'
             elem3.style.background = '#383838'
             const elem2 = document.getElementById('dot2')
             elem2.style.border = '5px solid #f7f7f7'
@@ -116,7 +116,7 @@ export default function ServicesRo() {
             const elem1 = document.getElementById('dot1')
             elem1.style.background = '#979797'
             const elem4 = document.getElementById('dot4')
-            elem4.style.border = '5px solid #ffd700'
+            elem4.style.border = '5px solid #c54cc6'
             elem4.style.background = '#383838'
             const elem3 = document.getElementById('dot3')
             elem3.style.border = '5px solid #f7f7f7'
@@ -137,7 +137,7 @@ export default function ServicesRo() {
             const elem1 = document.getElementById('dot1')
             elem1.style.background = '#b8b8b8'
             const elem5 = document.getElementById('dot5')
-            elem5.style.border = '5px solid #ffd700'
+            elem5.style.border = '5px solid #c54cc6'
             elem5.style.background = '#383838'
             const elem4 = document.getElementById('dot4')
             elem4.style.border = '5px solid #f7f7f7'
@@ -158,7 +158,7 @@ export default function ServicesRo() {
             const elem1 = document.getElementById('dot1')
             elem1.style.background = '#b8b8b8'
             const elem6 = document.getElementById('dot6')
-            elem6.style.border = '5px solid #ffd700'
+            elem6.style.border = '5px solid #c54cc6'
             elem6.style.background = '#383838'
             const elem5 = document.getElementById('dot5')
             elem5.style.border = '5px solid #f7f7f7'
@@ -179,7 +179,7 @@ export default function ServicesRo() {
             const elem1 = document.getElementById('dot1')
             elem1.style.background = '#b8b8b8'
             const elem7 = document.getElementById('dot7')
-            elem7.style.border = '5px solid #ffd700'
+            elem7.style.border = '5px solid #c54cc6'
             elem7.style.background = '#383838'
             const elem6 = document.getElementById('dot6')
             elem6.style.border = '5px solid #f7f7f7'
@@ -250,7 +250,7 @@ export default function ServicesRo() {
                 </section>
             </main>
             <GoToUp />
-            <Footer />
+            <FooterRo path='/ro' />
         </div>
     )
 }
