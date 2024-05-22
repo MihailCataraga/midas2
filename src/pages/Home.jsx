@@ -307,7 +307,7 @@ export default function Home() {
                                     ? <FaRegCheckCircle className='icon' name='check' onClick={() => { setForm({ ...form, check: !form.check }), document.getElementById('submit').removeAttribute('disabled') }} />
                                     : <FaRegCircle className='icon' name='check' id='uncheck' onClick={() => { setForm({ ...form, check: !form.check }), document.getElementById('submit').removeAttribute('disabled') }}
                                     />}
-                                <p>I accept the <Link to='/'>privacy policy.</Link></p>
+                                <p>I accept the <Link to='/privacypolicy'>privacy policy.</Link></p>
                             </div>
                             <button id='submit' onClick={sendForm}>SEND</button>
                         </form>
