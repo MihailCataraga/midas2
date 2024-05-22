@@ -1,17 +1,17 @@
 import React from 'react'
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
-import SecNavbar from '../components/SecNavbar'
-import portfolio from '../data/portfolio'
+import portfolio from '../data/portfolioRo'
 import { Link } from 'react-router-dom'
+import NavbarRo from '../components/NavbarRo'
+import SecNavbarRo from '../components/SecNavbarRo'
+import FooterRo from '../components/FooterRo'
 
-export default function Portfolio() {
+export default function PortfolioRo() {
   return (
     <div className='portfolio'>
-        <Navbar path='/portfolio' />
+        <NavbarRo path='/portfolio' />
         <main>
-            <SecNavbar page='Portfolio' />
-            <h1>Portfolio</h1>
+            <SecNavbarRo page='Portofoliu' />
+            <h1>Portofoliu</h1>
             <section className='sec-1'>
               {
                 portfolio.map((item) => {
@@ -26,7 +26,7 @@ export default function Portfolio() {
               }
             </section>
         </main>
-        <Footer />
+        <FooterRo path='/ro' />
     </div>
   )
 }

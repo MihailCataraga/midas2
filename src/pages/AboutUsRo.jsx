@@ -9,7 +9,7 @@ export default function AboutUsRo() {
         <NavbarRo path='/about' />
         <main>
             <section className='sec-1'>
-                <SecNavbarRo page='About Us' />
+                <SecNavbarRo page='Despre noi' />
                 <h1>Despre noi</h1>
                 <p className='infoAboutUs'>Noi suntem o echipă pasionată și dedicată, specializată în crearea de site-uri web care captivază, impresionează și aduc valoare afacerii dvs.</p>
                 <p className='infoAboutUs'>La Midas Group, credem că fiecare afacere merită să fie reprezentată cu profesionalism online. De aceea, ne-am angajat să oferim soluții digitale inovatoare, adaptate nevoilor și obiectivelor individuale ale fiecărui client. </p>

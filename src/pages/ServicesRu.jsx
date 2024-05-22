@@ -200,7 +200,7 @@ export default function ServicesRu() {
         <div className='services'>
             <NavbarRu path='/services' />
             <main>
-                <SecNavbarRu page='Services' />
+                <SecNavbarRu page='Услуги' />
                 <section className='sec-1'>
                     <h1 id='h1'>Какие типы сайтов мы реализуем?</h1>
                     <div className='servicesType'>

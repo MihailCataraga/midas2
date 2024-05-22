@@ -10,14 +10,14 @@ const portfolio = [
         id: 2,
         title: 'Moldova',
         link: 'https://moldova-six.vercel.app/',
-        description: 'Lux Smile is a website for a dentistry that consists of several pages, including the admin page. On the admin page you have access to the messages in the form, but you can also manipulate some data on the site.',
+        description: 'Acesta este un site de prezentare pentru Republica Moldova care conține informații de bază, imnul național, dar și cele mai populare locații turistice.',
         img: '/img/Moldova.webp'
     },
     {
         id: 3,
         title: 'Inboard',
         link: 'https://inboard-kappa.vercel.app/',
-        description: 'Lux Smile is a website for a dentistry that consists of several pages, including the admin page. On the admin page you have access to the messages in the form, but you can also manipulate some data on the site.',
+        description: 'Inboard este un site dedicat special prezentarii unui produs, oferind detalii tehnice, dar si posibilitatea achizitionarii produsului respectiv.',
         img: '/img/Inboard.webp'
     },
 ]

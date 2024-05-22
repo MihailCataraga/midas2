@@ -8,7 +8,7 @@ export default function PrivacyPolicyRo() {
     <div className='privacyPolicy'>
         <NavbarRo path='/privacyPolicy' />
         <main>
-            <SecNavbarRo page='Privacy Policy' />
+            <SecNavbarRo page='Politica de confidențialitate' />
             <h1>Politica de Confidențialitate</h1>
             <p className='privacyPolicyP'>Această Politică de Confidențialitate explică modul în care colectăm, utilizăm și protejăm informațiile personale ale utilizatorilor care ne vizitează site-ul și completează formularul de contact pentru a primi mai multe informații. Prin utilizarea site-ului nostru și furnizarea informațiilor personale, sunteți de acord cu practicile descrise în această politică.</p>
             <h2>Informații colectate</h2>

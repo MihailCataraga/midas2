@@ -200,7 +200,7 @@ export default function ServicesRo() {
         <div className='services'>
             <NavbarRo path='/services' />
             <main>
-                <SecNavbarRo page='Services' />
+                <SecNavbarRo page='Servicii' />
                 <section className='sec-1'>
                     <h1 id='h1'>Ce tipuri de website-uri realizăm?</h1>
                     <div className='servicesType'>
