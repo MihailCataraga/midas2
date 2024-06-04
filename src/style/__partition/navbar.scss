@@ -169,3 +169,22 @@
         }
     }
 }
+
+@media screen and (max-width: 1440px) {
+    .navbar {
+        width: 60px;
+        .menu {
+            left: 60px;
+        }
+    
+        .langBox {
+            left: 60px;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navbar {
+        display: none;
+    }
+}

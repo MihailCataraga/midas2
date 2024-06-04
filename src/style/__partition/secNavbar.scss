@@ -41,3 +41,32 @@
         }
     }
 }
+
+@media screen and (max-width: 1440px) {
+    .secNavbar{
+        padding: 25px 50px;
+        .left{
+            .logo{
+                font-size: 32px;
+            }
+            .page{
+                margin-left: 25px;
+                font-size: 26px;
+            }
+            a{
+                margin-left: 25px;
+                font-size: 26px;
+            }
+        }
+        .right{
+            p{
+                font-size: 22px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 767px) {
+    .secNavbar{
+        display: none;
+    }
+}

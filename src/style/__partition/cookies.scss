@@ -24,3 +24,25 @@
         }
     }
 }
+
+@media screen and (max-width: 1440px) {
+    .cookies{
+        main{
+            margin-left: 50px;
+            h1{
+                margin: 50px 0 50px 50px;
+            }
+            .cookiesP{
+                margin: 10px 50px;
+            }
+            h2{
+                margin: 20px 0 20px 50px;
+            }
+            ul{
+                li{
+                    margin: 10px 70px;
+                }
+            }
+        }
+    }
+}

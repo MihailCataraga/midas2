@@ -22,3 +22,21 @@
         }
     }
 }
+
+@media screen and (max-width: 1440px) {
+    .aboutUs{
+        main{
+            margin-left: 60px;
+            .sec-1{
+                background-position: top;
+                h1{
+                    margin: 150px 0 50px 60px;
+                }
+                .infoAboutUs{
+                    margin-left: 60px;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

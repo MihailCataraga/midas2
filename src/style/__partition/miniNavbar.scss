@@ -1,0 +1,19 @@
+@media screen and (max-width: 767px) {
+    .miniNavbar{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px 20px;
+        h1{
+            font-size: 36px;
+        }
+        .icon{
+            font-size: 28px;
+            color: $black;
+        }
+        .miniMenu{
+            position: absolute;
+        }
+    }
+}

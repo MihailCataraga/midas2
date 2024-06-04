@@ -3,9 +3,13 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import SecNavbar from '../components/SecNavbar'
 
+
+
 export default function Cookies() {
+
   return (
     <div className='cookies'>
+      
         <Navbar path='/cookies' />
         <main>
           <SecNavbar page={'Cookies'} />

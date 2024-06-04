@@ -134,15 +134,6 @@
                             margin-bottom: 50px;
                         }
                     }
-
-                    .card8 {
-                        align-items: flex-end;
-
-                        p {
-                            color: $white;
-                            width: 60%;
-                        }
-                    }
                 }
 
                 .dots {
@@ -202,6 +193,7 @@
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
+        gap: 25px;
 
         .site {
             border: 2px solid $black;
@@ -249,6 +241,68 @@
         .site:hover{
             transition: .5s;
             box-shadow: 0px 0px 15px 8px rgba(107, 107, 107, 0.75);
+        }
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .services {
+        main {
+            margin-left: 50px;
+    
+            .sec-1 {
+                flex-direction: column;
+    
+                #h1 {
+                    top: 100px;
+                    font-size: 44px;
+                    width: calc(100% - 100px);
+                    margin: 50px 0px 0px 50px;
+                }
+    
+                .servicesType {
+    
+                    .serviceCard {
+    
+                        .card {
+                            top: 250px;
+                            margin-left: 50px;
+                            height: 450px;
+    
+                            .title {
+                                font-size: 24px;
+                                margin: 0px 20px;
+                            }
+    
+                            p {
+                                font-size: 16px;
+                            }
+                        }
+                    }
+    
+                    .dots {
+                        top: calc(22vh);
+    
+                    }
+                }
+            }
+        }
+    
+        .sec-2 {
+            margin-top: -500px;
+
+    
+            .site {
+                margin: 10px;
+                margin-bottom: 50px;
+                .top {
+    
+                    .title {
+                        font-size: 24px;
+                    }
+                }
+    
+            }
         }
     }
 }

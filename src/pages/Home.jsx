@@ -13,6 +13,7 @@ import design from '../assets/img/design.webp';
 import development from '../assets/img/development.webp';
 import testing from '../assets/img/testing.webp';
 import finish from '../assets/img/finish.webp';
+import MiniNavbar from '../components/MiniNavbar';
 
 export default function Home() {
     const [ip, setIp] = useState('');
@@ -133,6 +134,7 @@ export default function Home() {
     return (
         <div className='home'>
             <Navbar path='/' />
+            <MiniNavbar path='/' />
             <main>
                 <section className='sec-1'>
                     <SecNavbar page='Home' />

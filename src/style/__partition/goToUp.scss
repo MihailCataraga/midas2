@@ -26,3 +26,22 @@
         }
     }
 }
+
+@media screen and (max-width: 1440px) {
+    .goToUp{
+        .arrow{
+            .icon{
+                font-size: 24px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .goToUp{
+        .arrow{
+            .icon{
+                font-size: 20px;
+            }
+        }
+    }
+}
