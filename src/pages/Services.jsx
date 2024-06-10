@@ -422,7 +422,7 @@ export default function Services() {
                             })}
                             {card.map((i) => {
                                 return (
-                                    <div className={`cardMini card${i.id}`} id={`card${i.id}`} key={i.id}>
+                                    <div className={`cardMini`} key={i.id}>
                                         <img src={i.img} alt='Card img' />
                                         <p className='title'>{i.title}</p>
                                         <p>{i.text}</p>

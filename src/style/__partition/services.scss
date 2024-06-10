@@ -57,6 +57,9 @@
                             line-height: 1.1;
                         }
                     }
+                    .cardMini{
+                        display: none;
+                    }
 
                     .card1 {
                         align-items: flex-end;
@@ -278,6 +281,9 @@
                                 font-size: 16px;
                             }
                         }
+                        .cardMini{
+                            display: none;
+                        }
                     }
     
                     .dots {
@@ -314,7 +320,7 @@
             .sec-1{
                 #h1{
                     font-size: 26px;
-                    position: initial;
+                    position: static;
                     margin: 10px;
                     width: calc(100vw - 20px);
                     text-align: center;
@@ -328,6 +334,8 @@
                             display: none;
                         }
                         .cardMini{
+                            display: flex;
+                            flex-direction: column;
                             border-radius: 25px;
                             margin: 10px;
                             margin-bottom: 20px;
