@@ -6,16 +6,17 @@ import site from '../data/siteTypeRu'
 import { GoDotFill } from "react-icons/go";
 import GoToUp from '../components/GoToGo'
 import FooterRu from '../components/FooterRu'
+import MiniNavbarRu from '../components/MiniNavbarRu'
 
 export default function ServicesRu() {
     const dot1 = () => {
-        if(window.innerWidth > 1440) {
+        if (window.innerWidth > 1440) {
             window.scrollTo({
                 top: 0,
                 behavior: 'smooth'
             })
         }
-        if(window.innerWidth <= 1440 && window.innerWidth >= 834) {
+        if (window.innerWidth <= 1440 && window.innerWidth >= 834) {
             window.scrollTo({
                 top: 100,
                 behavior: 'smooth'
@@ -23,13 +24,13 @@ export default function ServicesRu() {
         }
     }
     const dot2 = () => {
-        if(window.innerWidth > 1440) {
+        if (window.innerWidth > 1440) {
             window.scrollTo({
                 top: 1200,
                 behavior: 'smooth'
             })
         }
-        if(window.innerWidth <= 1440 && window.innerWidth >= 834) {
+        if (window.innerWidth <= 1440 && window.innerWidth >= 834) {
             window.scrollTo({
                 top: 1200,
                 behavior: 'smooth'
@@ -37,13 +38,13 @@ export default function ServicesRu() {
         }
     }
     const dot3 = () => {
-        if(window.innerWidth > 1440) {
+        if (window.innerWidth > 1440) {
             window.scrollTo({
                 top: 2400,
                 behavior: 'smooth'
             })
         }
-        if(window.innerWidth <= 1440 && window.innerWidth >= 834) {
+        if (window.innerWidth <= 1440 && window.innerWidth >= 834) {
             window.scrollTo({
                 top: 2300,
                 behavior: 'smooth'
@@ -51,13 +52,13 @@ export default function ServicesRu() {
         }
     }
     const dot4 = () => {
-        if(window.innerWidth > 1440) {
+        if (window.innerWidth > 1440) {
             window.scrollTo({
                 top: 3600,
                 behavior: 'smooth'
             })
         }
-        if(window.innerWidth <= 1440 && window.innerWidth >= 834) {
+        if (window.innerWidth <= 1440 && window.innerWidth >= 834) {
             window.scrollTo({
                 top: 3300,
                 behavior: 'smooth'
@@ -65,13 +66,13 @@ export default function ServicesRu() {
         }
     }
     const dot5 = () => {
-        if(window.innerWidth > 1440) {
+        if (window.innerWidth > 1440) {
             window.scrollTo({
                 top: 4800,
                 behavior: 'smooth'
             })
         }
-        if(window.innerWidth <= 1440 && window.innerWidth >= 834) {
+        if (window.innerWidth <= 1440 && window.innerWidth >= 834) {
             window.scrollTo({
                 top: 4400,
                 behavior: 'smooth'
@@ -79,13 +80,13 @@ export default function ServicesRu() {
         }
     }
     const dot6 = () => {
-        if(window.innerWidth > 1440) {
+        if (window.innerWidth > 1440) {
             window.scrollTo({
                 top: 6000,
                 behavior: 'smooth'
             })
         }
-        if(window.innerWidth <= 1440 && window.innerWidth >= 834) {
+        if (window.innerWidth <= 1440 && window.innerWidth >= 834) {
             window.scrollTo({
                 top: 5400,
                 behavior: 'smooth'
@@ -93,13 +94,13 @@ export default function ServicesRu() {
         }
     }
     const dot7 = () => {
-        if(window.innerWidth > 1440) {
+        if (window.innerWidth > 1440) {
             window.scrollTo({
                 top: 7100,
                 behavior: 'smooth'
             })
         }
-        if(window.innerWidth <= 1440 && window.innerWidth >= 834) {
+        if (window.innerWidth <= 1440 && window.innerWidth >= 834) {
             window.scrollTo({
                 top: 6450,
                 behavior: 'smooth'
@@ -248,11 +249,11 @@ export default function ServicesRu() {
         }
         if (window.innerWidth <= 1440 && window.innerWidth >= 768) {
             console.log(scroll)
-            if(scroll > 6450) {
+            if (scroll > 6450) {
                 const h1 = document.getElementById('h1')
                 h1.style.position = 'initial'
             }
-            if(scroll <= 6450) {
+            if (scroll <= 6450) {
                 const h1 = document.getElementById('h1')
                 h1.style.position = 'sticky'
             }
@@ -403,6 +404,7 @@ export default function ServicesRu() {
     }, [])
     return (
         <div className='services'>
+            <MiniNavbarRu path='/services' />
             <NavbarRu path='/services' />
             <main>
                 <SecNavbarRu page='Услуги' />

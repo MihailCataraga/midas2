@@ -13,6 +13,7 @@ import design from '../assets/img/design.webp';
 import development from '../assets/img/development.webp';
 import testing from '../assets/img/testing.webp';
 import finish from '../assets/img/finish.webp';
+import MiniNavbarRu from '../components/MiniNavbarRu';
 
 export default function HomeRu() {
     const [ip, setIp] = useState('');
@@ -127,6 +128,7 @@ export default function HomeRu() {
     }, []); // Asigurăm că acest efect se execută doar o singură dată la încărcarea componentei
     return (
         <div className='home'>
+            <MiniNavbarRu path='/' />
             <NavbarRu path='/' />
             <main>
                 <section className='sec-1'>

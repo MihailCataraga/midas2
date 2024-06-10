@@ -1,3 +1,7 @@
+.miniNavbar{
+    display: none;
+}
+
 @media screen and (max-width: 767px) {
     .miniNavbar{
         position: relative;
@@ -14,6 +18,69 @@
         }
         .miniMenu{
             position: absolute;
+            top: 40px;
+            right: -182px;
+            background-color: $blackk;
+            padding: 5px;
+            z-index: 999;
+            max-width: 150px;
+            border: 2px solid $black;
+            border-right: none;
+            border-bottom-left-radius: 20px;
+            border-top-left-radius: 20px;
+            display: none;
+            nav{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                a{
+                    text-decoration: none;
+                    color: $black;
+                    margin: 5px 10px;
+                    font-size: 18px;
+                }
+            }
+            .socials{
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                margin-top: 10px;
+                a{
+                    margin: 5px;
+                    .icon{
+                        font-size: 22px;
+                    }
+                }
+            }
+            .lang{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                a{
+                    text-decoration: none;
+                    font-size: 16px;
+                    margin: 5px;
+                    color: $black;
+                }
+            }
+        }
+        @keyframes showMiniMenu {
+            from{
+                right: -182px;
+            }
+            to{
+                right: -20px;
+            }
+        }
+        @keyframes closeMiniMenu {
+            from{
+                right: -20px;
+            }
+            to{
+                right: -182px;
+            }
         }
     }
 }

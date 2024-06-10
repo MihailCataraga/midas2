@@ -6,6 +6,7 @@ import site from '../data/siteType'
 import { GoDotFill } from "react-icons/go";
 import GoToUp from '../components/GoToGo'
 import Footer from '../components/Footer'
+import MiniNavbar from '../components/MiniNavbar'
 
 export default function Services() {
     const dot1 = () => {
@@ -403,6 +404,7 @@ export default function Services() {
     }, [])
     return (
         <div className='services'>
+            <MiniNavbar path='/services' />
             <Navbar path='/services' />
             <main>
                 <SecNavbar page='Services' />
@@ -413,6 +415,15 @@ export default function Services() {
                             {card.map((i) => {
                                 return (
                                     <div className={`card card${i.id}`} id={`card${i.id}`} key={i.id} style={{ backgroundImage: `url(${i.img})` }}>
+                                        <p className='title'>{i.title}</p>
+                                        <p>{i.text}</p>
+                                    </div>
+                                )
+                            })}
+                            {card.map((i) => {
+                                return (
+                                    <div className={`cardMini card${i.id}`} id={`card${i.id}`} key={i.id}>
+                                        <img src={i.img} alt='Card img' />
                                         <p className='title'>{i.title}</p>
                                         <p>{i.text}</p>
                                     </div>

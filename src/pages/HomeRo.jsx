@@ -13,6 +13,7 @@ import design from '../assets/img/design.webp';
 import development from '../assets/img/development.webp';
 import testing from '../assets/img/testing.webp';
 import finish from '../assets/img/finish.webp';
+import MiniNavbarRo from '../components/MiniNavbarRo';
 
 
 export default function HomeRo() {
@@ -130,6 +131,7 @@ export default function HomeRo() {
     }, []); // Asigurăm că acest efect se execută doar o singură dată la încărcarea componentei
     return (
         <div className='home'>
+            <MiniNavbarRo path='/' />
             <NavbarRo path='/' />
             <main>
                 <section className='sec-1'>

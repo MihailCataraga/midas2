@@ -5,7 +5,7 @@ import { FaInstagram, FaFacebookF, FaWhatsapp, FaLinkedinIn } from "react-icons/
 import { FaXTwitter } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
 
-export default function MiniNavbar(props) {
+export default function MiniNavbarRu(props) {
     const [menu, setMenu] = useState(false);
 
     // Menu ref
@@ -67,10 +67,10 @@ export default function MiniNavbar(props) {
         }
         <div className='miniMenu' id='miniMenu' ref={menuRef}>
             <nav>
-                <NavLink to='/' onClick={scrollTop} end>Home</NavLink>
-                <NavLink to='/about' onClick={scrollTop} end>About Us</NavLink>
-                <NavLink to='/services' onClick={scrollTop} end>Services</NavLink>
-                <NavLink to='/portfolio' onClick={scrollTop} end>Portfolio</NavLink>
+                <NavLink to='/ru' onClick={scrollTop} end>Домой</NavLink>
+                <NavLink to='/ru/about' onClick={scrollTop} end>О нас</NavLink>
+                <NavLink to='/ru/services' onClick={scrollTop} end>Услуги</NavLink>
+                <NavLink to='/ru/portfolio' onClick={scrollTop} end>Портфолио</NavLink>
             </nav>
             <section className='socials'>
                 <Link to='https://www.instagram.com/midasgroup.works/'><FaInstagram className='icon' /></Link>

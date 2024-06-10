@@ -306,3 +306,62 @@
         }
     }
 }
+
+@media screen and (max-width: 767px) {
+    .services{
+        main{
+            margin: 0;
+            .sec-1{
+                #h1{
+                    font-size: 26px;
+                    position: initial;
+                    margin: 10px;
+                    width: calc(100vw - 20px);
+                    text-align: center;
+                    height: auto;
+                }
+                .servicesType{
+                    position: initial;
+                    .serviceCard{
+                        position: initial;
+                        .card{
+                            display: none;
+                        }
+                        .cardMini{
+                            border-radius: 25px;
+                            margin: 10px;
+                            margin-bottom: 20px;
+                            background-color: $blackk;
+                            padding-bottom: 10px;
+                            img{
+                                width: calc(100vw - 20px);
+                                border-top-left-radius: 25px;
+                                border-top-right-radius: 25px;
+                            }
+                            .title{
+                                font-size: 22px;
+                                color: $black;
+                                text-align: center;
+                                width: calc(100vw - 20px);
+                                margin: 10px 0;
+                            }
+                            p{
+                                font-size: 18px;
+                                color: $black;
+                                text-align: center;
+                                width: calc(100% - 20px);
+                                margin: 0 10px;
+                            }
+                        }
+                    }
+                    .dots{
+                        display: none;
+                    }
+                }
+            }
+            .sec-2{
+                margin: 0;
+            }
+        }
+    }
+}

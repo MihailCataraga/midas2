@@ -69,3 +69,25 @@
     
     }
 }
+
+@media screen and (max-width: 767px) {
+    .portfolio{
+        main{
+            margin: 0;
+            h1{
+                text-align: center;
+                margin-left: 0;
+            }
+            .sec-1{
+                justify-content: center;
+                margin: 0 10px 100px 10px;
+                .project{
+                    width: calc(100vw - 20px);
+                    img{
+                        width: calc(100vw - 20px);
+                    }
+                }
+            }
+        }
+    }
+}

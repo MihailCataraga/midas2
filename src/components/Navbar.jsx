@@ -111,7 +111,7 @@ export default function Navbar(props) {
                 <FaLinkedinIn className='icon' />
                 <FaXTwitter className='icon' />
                 <div className='line'></div>
-                <FaWhatsapp className='icon' onClick={() => {window.location.href = "Https://wa.me/37368193004"}} />
+                <FaWhatsapp className='icon' onClick={() => {window.location.href = "https://wa.me/37368193004"}} />
                 <IoIosMail className='icon' onClick={() => {window.location.href = "mailto:info@midasgroup.works"}} />
             </div>
             <MdLanguage className={lang ? 'iconLang activeLang': 'iconLang'} id='langIcon' onClick={lang ? () => {closeLang(), pulse('langIcon')} : () => {setLang(true), pulse('langIcon')}} />

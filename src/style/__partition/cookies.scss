@@ -46,3 +46,26 @@
         }
     }
 }
+
+@media screen and (max-width: 767px) {
+    .cookies{
+        main{
+            margin-left: 0px;
+            margin: 0px 25px;
+            h1{
+                margin: 50px 0 0px 0px;
+            }
+            .cookiesP{
+                margin: 10px 0px;
+            }
+            h2{
+                margin: 20px 0 0px 0px;
+            }
+            ul{
+                li{
+                    margin: 10px 20px;
+                }
+            }
+        }
+    }
+}
