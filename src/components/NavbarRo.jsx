@@ -106,10 +106,10 @@ export default function NavbarRo(props) {
             </div>
             }
             <div className='social'>
-                <FaInstagram className='icon' />
-                <FaFacebookF className='icon' />
-                <FaLinkedinIn className='icon' />
-                <FaXTwitter className='icon' />
+            <Link to='https://www.instagram.com/midasgroup.works/'><FaInstagram className='icon' /></Link>
+                <Link to='https://www.facebook.com/profile.php?id=61559641946902'><FaFacebookF className='icon' /></Link>
+                <Link to='https://www.linkedin.com/company/midasgroup-works/'><FaLinkedinIn className='icon' /></Link>
+                <Link to='https://x.com/midasgroupworks'><FaXTwitter className='icon' /></Link>
                 <div className='line'></div>
                 <FaWhatsapp className='icon' onClick={() => {window.location.href = "Https://wa.me/37368193004"}} />
                 <IoIosMail className='icon' onClick={() => {window.location.href = "mailto:info@midasgroup.works"}} />

@@ -35,14 +35,14 @@ export default function Navbar(props) {
 
     // Close menu when you scroll
     const scrollCloseMenu = () => {
-        if(menu) {
+        if (menu) {
             closeMenu()
         }
-        
+
     }
     // Close lang when you scroll
     const scrollCloseLang = () => {
-        if(lang) {
+        if (lang) {
             closeLang()
         }
     }
@@ -66,13 +66,13 @@ export default function Navbar(props) {
     const pulse = (param) => {
         const elem = document.getElementById(param)
         elem.style.color = '#fff4b4'
-        
+
         const timeout = setTimeout(() => {
             elem.style.color = '#c54cc6'
-            elem.addEventListener('mouseenter', function() {
+            elem.addEventListener('mouseenter', function () {
                 this.style.color = '#c54cc6'; // Schimbă culoarea la hover
             });
-            elem.addEventListener('mouseleave', function() {
+            elem.addEventListener('mouseleave', function () {
                 this.style.color = '#f7f7f7'; // Restabilește culoarea la ieșirea mouse-ului
             });
         }, 300)
@@ -93,8 +93,8 @@ export default function Navbar(props) {
     })
     return (
         <div className='navbar'>
-            {menu ? <IoClose className='icon iconActive' id='close' onClick={() => {setTimeout(() => {setMenu(false)}, 300), closeMenu(), pulse('close')}} />
-                : <IoMenu className='icon' id='open' onClick={() => {setTimeout(() => {setMenu(true)}, 300), pulse('open')}} />
+            {menu ? <IoClose className='icon iconActive' id='close' onClick={() => { setTimeout(() => { setMenu(false) }, 300), closeMenu(), pulse('close') }} />
+                : <IoMenu className='icon' id='open' onClick={() => { setTimeout(() => { setMenu(true) }, 300), pulse('open') }} />
             }
             {menu && <div className='menu' id='menu' ref={menuRef}>
                 <nav>
@@ -106,19 +106,19 @@ export default function Navbar(props) {
             </div>
             }
             <div className='social'>
-                <FaInstagram className='icon' />
-                <FaFacebookF className='icon' />
-                <FaLinkedinIn className='icon' />
-                <FaXTwitter className='icon' />
+                <Link to='https://www.instagram.com/midasgroup.works/'><FaInstagram className='icon' /></Link>
+                <Link to='https://www.facebook.com/profile.php?id=61559641946902'><FaFacebookF className='icon' /></Link>
+                <Link to='https://www.linkedin.com/company/midasgroup-works/'><FaLinkedinIn className='icon' /></Link>
+                <Link to='https://x.com/midasgroupworks'><FaXTwitter className='icon' /></Link>
                 <div className='line'></div>
-                <FaWhatsapp className='icon' onClick={() => {window.location.href = "https://wa.me/37368193004"}} />
-                <IoIosMail className='icon' onClick={() => {window.location.href = "mailto:info@midasgroup.works"}} />
+                <FaWhatsapp className='icon' onClick={() => { window.location.href = "https://wa.me/37368193004" }} />
+                <IoIosMail className='icon' onClick={() => { window.location.href = "mailto:info@midasgroup.works" }} />
             </div>
-            <MdLanguage className={lang ? 'iconLang activeLang': 'iconLang'} id='langIcon' onClick={lang ? () => {closeLang(), pulse('langIcon')} : () => {setLang(true), pulse('langIcon')}} />
+            <MdLanguage className={lang ? 'iconLang activeLang' : 'iconLang'} id='langIcon' onClick={lang ? () => { closeLang(), pulse('langIcon') } : () => { setLang(true), pulse('langIcon') }} />
             {lang && <div className='langBox' id='lang' ref={langRef}>
-                <Link to={props.path} onClick={() => {document.cookie = "language" + '=;expires=Thu, 01 Jan 1970 00:00:01 GMT;', document.cookie = "language=en;path=/; max-age=2592000", scrollTop()}}>EN</Link>
-                <Link to={'/ro' + props.path} onClick={() => {document.cookie = "language" + '=;expires=Thu, 01 Jan 1970 00:00:01 GMT;', document.cookie = "language=ro;path=/; max-age=2592000", scrollTop()}}>RO</Link>
-                <Link to={'/ru' + props.path} onClick={() => {document.cookie = "language" + '=;expires=Thu, 01 Jan 1970 00:00:01 GMT;', document.cookie = "language=ru;path=/; max-age=2592000", scrollTop()}}>RU</Link>
+                <Link to={props.path} onClick={() => { document.cookie = "language" + '=;expires=Thu, 01 Jan 1970 00:00:01 GMT;', document.cookie = "language=en;path=/; max-age=2592000", scrollTop() }}>EN</Link>
+                <Link to={'/ro' + props.path} onClick={() => { document.cookie = "language" + '=;expires=Thu, 01 Jan 1970 00:00:01 GMT;', document.cookie = "language=ro;path=/; max-age=2592000", scrollTop() }}>RO</Link>
+                <Link to={'/ru' + props.path} onClick={() => { document.cookie = "language" + '=;expires=Thu, 01 Jan 1970 00:00:01 GMT;', document.cookie = "language=ru;path=/; max-age=2592000", scrollTop() }}>RU</Link>
             </div>
             }
         </div>
